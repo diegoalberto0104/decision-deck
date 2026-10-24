@@ -9,7 +9,8 @@ const ejemplos = readdirSync(path.join(root, 'examples'))
   .map((d) => path.join('examples', d, 'decision.config.json'))
   .filter((f) => existsSync(path.join(root, f)))
 
-const correr = (cmd, args) => execFileSync(cmd, args, { cwd: root, stdio: 'inherit' })
+// En Windows, npx es npx.cmd y solo se encuentra con shell (los argumentos son fijos, no vienen de afuera)
+const correr = (cmd, args) => execFileSync(cmd, args, { cwd: root, stdio: 'inherit', shell: process.platform === 'win32' })
 correr('npx', ['tsc', '-b'])
 for (const config of ejemplos) {
   console.log(`\n▶ ${config}`)

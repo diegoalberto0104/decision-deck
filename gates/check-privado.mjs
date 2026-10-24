@@ -5,6 +5,7 @@
 //   - la variable de entorno PRIVADO_TERMINOS: términos separados por salto de línea (secret de CI)
 //   - gates/privado.taller.json: hashes, solo en el taller privado (no se copia al repo público)
 // Sin términos, avisa y no falla (así pasan los PR de forks, que no reciben secrets).
+// Nunca imprime el texto encontrado: los logs de CI de un repo público son públicos.
 // Uso: npm run check:privado
 import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
@@ -49,12 +50,12 @@ const archivos = execFileSync('git', ['ls-files', '--cached', '--others', '--exc
 const hallazgos = []
 for (const f of archivos) {
   readFileSync(path.join(root, f), 'utf8').split('\n').forEach((linea, n) => {
-    for (const [cat, re] of PATRONES) if (re.test(linea)) hallazgos.push(`${f}:${n + 1}: patrón de "${cat}" ("${linea.match(re)[0]}")`)
+    for (const [cat, re] of PATRONES) if (re.test(linea)) hallazgos.push(`${f}:${n + 1}: patrón de "${cat}"`)
     const palabras = normalizar(linea)
     for (let a = 0; a < palabras.length; a++) {
       for (let k = 1; k <= MAX_PALABRAS && a + k <= palabras.length; k++) {
         const cat = lista.get(hash(palabras.slice(a, a + k).join(' ')))
-        if (cat) hallazgos.push(`${f}:${n + 1}: término de "${cat}" ("${palabras.slice(a, a + k).join(' ')}")`)
+        if (cat) hallazgos.push(`${f}:${n + 1}: término de "${cat}"`)
       }
     }
   })

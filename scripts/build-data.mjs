@@ -1,7 +1,7 @@
 // Pipeline de datos: decision.config.json + <datos>/*.json -> public/data/datos.json (+ public/img/<id>.<ext>)
 // Config: --config <ruta>, o la variable DECISION_CONFIG, o ./decision.config.json, o el ejemplo por defecto.
 // Se puede volver a correr: reutiliza las imágenes ya copiadas o descargadas. Con --refresh-img las rehace.
-import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, realpathSync, rmSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import Ajv from 'ajv/dist/2020.js'
@@ -175,6 +175,12 @@ const items = [...porId.values()].map((it) => {
 // ---- Imágenes: ruta local (relativa a la config) se copia; URL se descarga y no se sube al repo ----
 mkdirSync(imgDir, { recursive: true })
 const ACEPTA = 'image/webp,image/jpeg,image/png;q=0.9'
+// Locales: solo dentro de la carpeta de la config y con extensión de imagen (un dato no puede publicar otro archivo).
+// Remotas: solo raster (un SVG puede traer scripts) y con tope de tamaño.
+const IMG_LOCAL = /\.(png|jpe?g|webp|gif|svg)$/i
+const EXT_REMOTA = Object.fromEntries(Object.entries(EXT).filter(([, e]) => e !== 'svg'))
+const MAX_BYTES = 5 * 1024 * 1024
+const dentroDe = (base, p) => { const r = path.relative(base, p); return r !== '' && !r.startsWith('..') && !path.isAbsolute(r) }
 const existentes = readdirSync(imgDir)
 let copiadas = 0, bajadas = 0, reusadas = 0, fallo = 0
 const log = []
@@ -186,7 +192,9 @@ for (const it of items) {
   const borrarPrevias = () => { for (const v of existentes.filter((x) => x.startsWith(it.id + '.'))) rmSync(path.join(imgDir, v), { force: true }) }
   if (!/^https?:\/\//i.test(origen)) {
     const archivo = path.resolve(configDir, origen)
+    if (!dentroDe(configDir, archivo) || !IMG_LOCAL.test(archivo)) { log.push(`  ${it.id}: imagen rechazada (fuera de la carpeta del ejemplo o sin extensión de imagen)`); fallo++; continue }
     if (!existsSync(archivo)) { log.push(`  ${it.id}: no existe ${rel(archivo)}`); fallo++; continue }
+    if (!dentroDe(realpathSync(configDir), realpathSync(archivo))) { log.push(`  ${it.id}: imagen rechazada (enlace que sale de la carpeta)`); fallo++; continue }
     const destino = `${it.id}${path.extname(archivo).toLowerCase()}`
     borrarPrevias()
     copyFileSync(archivo, path.join(imgDir, destino))
@@ -199,10 +207,13 @@ for (const it of items) {
   try {
     const res = await fetch(origen, { headers: { 'User-Agent': UA, Accept: ACEPTA }, signal: AbortSignal.timeout(20000) })
     const tipo = (res.headers.get('content-type') ?? '').split(';')[0].trim().toLowerCase()
-    if (!res.ok || !EXT[tipo]) throw new Error(`HTTP ${res.status} ${tipo}`)
+    if (!res.ok || !EXT_REMOTA[tipo]) throw new Error(`HTTP ${res.status} ${tipo}`)
+    if (Number(res.headers.get('content-length') ?? 0) > MAX_BYTES) throw new Error('imagen de más de 5 MB')
+    const cuerpo = Buffer.from(await res.arrayBuffer())
+    if (cuerpo.length > MAX_BYTES) throw new Error('imagen de más de 5 MB')
     borrarPrevias()
-    writeFileSync(path.join(imgDir, `${it.id}.${EXT[tipo]}`), Buffer.from(await res.arrayBuffer()))
-    it.imagen = `img/${it.id}.${EXT[tipo]}`
+    writeFileSync(path.join(imgDir, `${it.id}.${EXT_REMOTA[tipo]}`), cuerpo)
+    it.imagen = `img/${it.id}.${EXT_REMOTA[tipo]}`
     bajadas++
   } catch (e) {
     log.push(`  ${it.id}: ${origen} -> ${e.message}`)
@@ -256,3 +267,5 @@ console.log(`ítems: ${items.length} (${config.segmentos.map((s) => `${s.nombre}
 console.log(`franjas: ${['ideal', 'estirando', 'sobre_tope', 'no_disponible', 'descartado'].map((f) => `${f} ${cuenta((it) => it.franja === f)}`).join(', ')}; destacados ${cuenta((it) => it.destacado)}`)
 console.log(`imágenes: ${copiadas} copiadas, ${bajadas} descargadas, ${reusadas} reutilizadas, ${fallo} fallidas`)
 if (log.length) console.log(log.join('\n'))
+// Una imagen rechazada por seguridad no es un fallo tolerable: corta el build (y el CI)
+if (log.some((l) => l.includes('imagen rechazada'))) { console.error('✖ Hay imágenes rechazadas por seguridad'); process.exit(1) }

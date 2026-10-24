@@ -13,7 +13,8 @@
     "check:dominio": "node gates/check-dominio.mjs",
     "check:privado": "node gates/check-privado.mjs",
     "data:audifonos": "node scripts/build-data.mjs --config examples/audifonos/decision.config.json",
-    "check:ejemplos": "node gates/check-ejemplos.mjs"
+    "check:ejemplos": "node gates/check-ejemplos.mjs",
+    "check:seguridad": "node gates/check-seguridad.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
@@ -27,7 +28,6 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "recharts": "^3.8.0",
-    "shadcn": "^4.21.4",
     "sonner": "^2.0.8",
     "tailwind-merge": "^3.7.0",
     "tailwindcss": "^4.3.3",
@@ -41,6 +41,7 @@
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
     "oxlint": "^1.81.0",
+    "shadcn": "^4.21.4",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
   },

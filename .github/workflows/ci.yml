@@ -2,19 +2,29 @@ name: CI
 on:
   push:
   pull_request:
+# El token del workflow solo lee: ningún paso necesita escribir en el repo
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm audit --audit-level=high
       - run: npm run check:dominio
       - run: npm run check:privado
         env:
           PRIVADO_TERMINOS: ${{ secrets.PRIVADO_TERMINOS }}
+      - run: npm run check:seguridad
       - run: npm run lint
       - run: npm run check:ejemplos
