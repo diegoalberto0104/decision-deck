@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Ilustración genérica">
+<ellipse cx="150" cy="250" rx="100" ry="10" fill="#000" opacity=".08"/>
+<rect x="70" y="150" width="160" height="86" rx="40" fill="#e8ebee" stroke="#1d2127" stroke-width="3"/>
+<line x1="78" y1="182" x2="222" y2="182" stroke="#1d2127" stroke-width="2" opacity=".4"/>
+<circle cx="112" cy="104" r="30" fill="#f4f6f8" stroke="#1d2127" stroke-width="3"/>
+<circle cx="188" cy="104" r="30" fill="#f4f6f8" stroke="#1d2127" stroke-width="3"/>
+<circle cx="112" cy="104" r="12" fill="#1d2127" opacity=".5"/>
+<circle cx="188" cy="104" r="12" fill="#1d2127" opacity=".5"/>
+</svg>

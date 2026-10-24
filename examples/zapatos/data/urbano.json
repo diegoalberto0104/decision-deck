@@ -1,0 +1,2456 @@
+{
+  "$schema": "../../../schema/datos.schema.json",
+  "segmento": "urbano",
+  "items": [
+    {
+      "id": "merrell-speedarc-matis",
+      "marca": "Merrell",
+      "modelo": "SpeedARC Matis (sin membrana)",
+      "variante": "Amarillo lima con gris",
+      "imagen": "img/urbano-amarillo.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 352,
+        "drop_mm": 13.9,
+        "suela": "Vibram Megagrip (tacos 3 mm) en la versión gris; FlexPlate; entresuela FloatPro",
+        "amortiguacion": "Alta (stack medido 42,6 / 28,7 mm)",
+        "fuentes": [
+          "https://www.runrepeat.com/merrell-speed-arc-matis"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 2,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Urban 90 en RunRepeat, FlexPlate y gran amortiguación",
+        "Vibram Megagrip en la versión gris"
+      ],
+      "contras": [
+        "No impermeable: para ciudad/seco",
+        "Stack alto y blando, 'tippy' (RunRepeat)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/zapatilla-hike-speedarc-matis-hombre-j038361-5qk",
+          "variante": "Amarillo lima con gris",
+          "precio": 449950,
+          "moneda": "COP",
+          "precio_final": 449950,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/zapatilla-hike-speedarc-matis-hombre-j038357-aok",
+          "variante": "(ver ficha)",
+          "precio": 449950,
+          "moneda": "COP",
+          "precio_final": 449950,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-hike-speedarc-matis-para-hombre-color-gris-j00005511-ijl",
+          "variante": "Gris oscuro/oliva con rojo",
+          "precio": 899900,
+          "moneda": "COP",
+          "precio_final": 899900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "merrell-fly-strike-2",
+      "marca": "Merrell",
+      "modelo": "Fly Strike 2",
+      "variante": "Verde oliva",
+      "imagen": "img/urbano-oliva.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 300,
+        "drop_mm": 9,
+        "suela": "Caucho Merrell con tacos de trail (no Vibram)",
+        "amortiguacion": "Espuma FloatPro, stack 24/15 mm (REI); peso 10,58 oz por zapato",
+        "fuentes": [
+          "https://www.rei.com/product/C10283/merrell-fly-strike-2-trail-running-shoes-mens"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rei.com/product/C10283/merrell-fly-strike-2-trail-running-shoes-mens"
+        ]
+      },
+      "beneficios": [
+        "Precio muy bajo (199.900) con color oliva neutro",
+        "Liviano (~300 g)"
+      ],
+      "contras": [
+        "Menos acolchado que Clifton o Novablast",
+        "Caucho Merrell sin Vibram: agarre medio en piedra mojada",
+        "No impermeable"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Hombre-Merrell-Fly-Strike-2-Verde-Merrell-2888913.html",
+          "variante": "Verde oliva",
+          "precio": 199900,
+          "moneda": "COP",
+          "precio_final": 199900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        },
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Hombre-FLY-STRIKE-2-MERRELL-Negro-Merrell-2810526.html",
+          "variante": "Negro",
+          "precio": 199900,
+          "moneda": "COP",
+          "precio_final": 199900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/158554998/tenis-hombre-merrell-fly-strike-2-verde-merrell",
+          "variante": "Verde oliva",
+          "precio": 199900,
+          "moneda": "COP",
+          "precio_final": 199900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/151699434/tenis-hombre-fly-strike-2-merrell-negro-merrell",
+          "variante": "Negro",
+          "precio": 199900,
+          "moneda": "COP",
+          "precio_final": 199900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-trail-fly-strike-2-hombre-j068547-zmi",
+          "variante": "Gris / negro",
+          "precio": 369900,
+          "moneda": "COP",
+          "precio_final": 369900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-trail-running-fly-strike-2-para-hombre-color-verde-j00005469-45o",
+          "variante": "Verde oliva",
+          "precio": 439900,
+          "moneda": "COP",
+          "precio_final": 439900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        }
+      ]
+    },
+    {
+      "id": "asics-novablast-5",
+      "marca": "ASICS",
+      "modelo": "Novablast 5",
+      "variante": "Negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 255,
+        "drop_mm": 8,
+        "suela": "Caucho AHAR LO sobre FF BLAST MAX, con espuma expuesta entre zonas",
+        "amortiguacion": null,
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 2,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://outdoorgearlab.com/reviews/shoes-and-boots/running-shoes-men/asics-novablast-5"
+        ]
+      },
+      "beneficios": [
+        "Amortiguación muy blanda, ideal para caminar muchas horas",
+        "Liviano (255 g)"
+      ],
+      "contras": [
+        "Suela de running sin tacos"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011b974-004/p",
+          "variante": "Negro",
+          "precio": 419970,
+          "moneda": "COP",
+          "precio_final": 419970,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011c224-300/p",
+          "variante": "Verde neón",
+          "precio": 419970,
+          "moneda": "COP",
+          "precio_final": 419970,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011b974-020/p",
+          "variante": "Gris con acentos naranja/azul",
+          "precio": 419970,
+          "moneda": "COP",
+          "precio_final": 419970,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011b974-800/p",
+          "variante": "Naranja",
+          "precio": 419970,
+          "moneda": "COP",
+          "precio_final": 419970,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011c184-400/p",
+          "variante": "Azul",
+          "precio": 419970,
+          "moneda": "COP",
+          "precio_final": 419970,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "new-balance-hierro-v9",
+      "marca": "New Balance",
+      "modelo": "Fresh Foam X Hierro v9",
+      "variante": "Arcilla del desierto / Sombra de tierra / Rojo (versión sin GTX)",
+      "imagen": "img/urbano-rojo.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 292,
+        "drop_mm": 4,
+        "suela": "Vibram Megagrip, tacos de 6 mm",
+        "amortiguacion": "Fresh Foam X de doble densidad, stack 42/38 mm, plataforma con rocker. Peso REI: 1 lb 4,6 oz el par (~292 g por zapato)",
+        "fuentes": [
+          "https://www.rei.com/product/243742/new-balance-fresh-foam-x-hierro-v9-trail-running-shoes-mens"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 3,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/new-balance-fresh-foam-x-hierro-v9",
+          "https://www.rei.com/product/243742/new-balance-fresh-foam-x-hierro-v9-trail-running-shoes-mens",
+          "https://www.roadtrailrun.com/2025/01/new-balance-fresh-foam-x-hierro-v9.html?m=1"
+        ]
+      },
+      "beneficios": [
+        "Vibram Megagrip: el mejor agarre en piedra mojada de la lista",
+        "Amortiguación máxima con base ancha y espuma de doble densidad"
+      ],
+      "contras": [
+        "En CO el negro cuesta 819.900 y el 563.940 es verde neón"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "newbalance.com.co",
+          "pais": "CO",
+          "url": "https://www.newbalance.com.co/products/mthierf9",
+          "variante": "Verde neón",
+          "precio": 563940,
+          "moneda": "COP",
+          "precio_final": 563940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "newbalance.com.co",
+          "pais": "CO",
+          "url": "https://www.newbalance.com.co/products/mthierz9",
+          "variante": "Negro total",
+          "precio": 819900,
+          "moneda": "COP",
+          "precio_final": 819900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73542592/tenis-nb-mthierz9-hombre",
+          "variante": "Negro",
+          "precio": 919990,
+          "moneda": "COP",
+          "precio_final": 919990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73542582/tenis-nb-mhier8r9-hombre",
+          "variante": "Multicolor",
+          "precio": 367990,
+          "moneda": "COP",
+          "precio_final": 367990,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%20Hierro%20v9",
+          "variante": "Arcilla del desierto / Sombra de tierra / Rojo (versión sin GTX)",
+          "precio": 384327.97,
+          "moneda": "COP",
+          "precio_final": 395858,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "hoka-clifton-10",
+      "marca": "Hoka",
+      "modelo": "Clifton 10",
+      "variante": "Negro/Blanco",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 268,
+        "drop_mm": 8,
+        "suela": "Caucho con espuma EVA expuesta; Active Foot Frame",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.roadtrailrun.com/2025/01/hoka-clifton-10-multi-tester-review-big.html",
+          "https://www.runrepeat.com/hoka-clifton-10"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 3,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/hoka-clifton-10",
+          "https://www.rei.com/product/242661",
+          "https://www.fleetfeet.com/blog/hoka-clifton-10-review-more-cushion-same-comfort",
+          "https://www.roadtrailrun.com/2025/01/hoka-clifton-10-multi-tester-review-big.html"
+        ]
+      },
+      "beneficios": [
+        "Amortiguación muy suave, la más cómoda para andar sobre asfalto",
+        "Base más ancha que la v9 y talón con Active Foot Frame",
+        "Liviano para su stack (268 g)"
+      ],
+      "contras": [
+        "En CO cuesta 695.990-719.990, sobre el tope"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73613818/tenis-hoka-clifton-10-hombre",
+          "variante": "Negro",
+          "precio": 719990,
+          "moneda": "COP",
+          "precio_final": 719990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/154307047/tenis-de-running-unisex-clifton-10-hoka",
+          "variante": "Negro",
+          "precio": 695990,
+          "moneda": "COP",
+          "precio_final": 695990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/154307047/tenis-de-running-unisex-clifton-10-hoka",
+          "variante": "Blanco",
+          "precio": 695990,
+          "moneda": "COP",
+          "precio_final": 695990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73613826/tenis-hoka-clifton-10-hombre",
+          "variante": "Gris",
+          "precio": 719990,
+          "moneda": "COP",
+          "precio_final": 719990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73613834/tenis-hoka-clifton-10-hombre",
+          "variante": "Cielo (azul claro)",
+          "precio": 719990,
+          "moneda": "COP",
+          "precio_final": 719990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73467042/Tenis-Hoka-Hombre-Running-Clifton-10-",
+          "variante": "Navy (azul)",
+          "precio": 347990,
+          "moneda": "COP",
+          "precio_final": 347990,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "sportline.com.co",
+          "pais": "CO",
+          "url": "https://www.sportline.com.co/zapatillas-clifton-10-masculino-1162030-bwht-running-10300116.html",
+          "variante": "Negro / blanco",
+          "precio": 539900,
+          "moneda": "COP",
+          "precio_final": 539900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Hoka%20Clifton%2010",
+          "variante": "Negro/Blanco",
+          "precio": 444832.64,
+          "moneda": "COP",
+          "precio_final": 458178,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "salomon-xt-pure-advanced",
+      "marca": "Salomon",
+      "modelo": "XT-Pu.Re Advanced",
+      "variante": "Black / Phantom",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 346,
+        "drop_mm": 12,
+        "suela": "Contagrip All Terrain con tacos chevron y advancedCHASSIS",
+        "amortiguacion": "infiniFOAM, estructurada más que blanda. Stack no publicado en las fuentes leídas",
+        "fuentes": [
+          "https://salomon.com.au/products/xt-pu-re-advanced-7",
+          "https://solefeed.com/guide/salomon/xt-pu-re-advanced"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://salomon.com.au/products/xt-pu-re-advanced-7",
+          "https://solefeed.com/guide/salomon/xt-pu-re-advanced",
+          "https://www.salomon.com/en-us/product/xt-pu-re-advanced-li5502/L47446000"
+        ]
+      },
+      "beneficios": [
+        "Cierre Quicklace y ajuste firme del pie"
+      ],
+      "contras": [
+        "Drop 12 mm y ~346 g, más pesado que los running"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xt-pure-advanced-in-black-phantom/dp/SMOF-MZ109/",
+          "variante": "Black / Phantom",
+          "precio": 423667,
+          "moneda": "COP",
+          "precio_final": 423667,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "merrell-morphlite-m",
+      "marca": "Merrell",
+      "modelo": "Morphlite M (sin GTX)",
+      "variante": "Tiza/zafiro (sin GTX)",
+      "imagen": "img/urbano-gris.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 255,
+        "drop_mm": 6.5,
+        "suela": "Caucho propio de Merrell (no Vibram), tacos de 2 mm al centro y 3 mm en el perímetro",
+        "amortiguacion": "Espuma ligera tipo carretera-sendero; stack del fabricante 26,5/20 mm, RunRepeat midió 32,3/21,3 mm (drop real ~11 mm). (datos de la plataforma Morphlite; el peso 255 g es de la versión GTX)",
+        "fuentes": [
+          "https://www.merrell.com.co/products/tenis-trail-morphlite-m-hombre-j00003472-9ug"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://doctorsofrunning.com/2024/10/merrell-morphlite-review-2024-major.html",
+          "https://www.rei.com/product/247834/merrell-morphlite-road-running-shoes-mens"
+        ]
+      },
+      "beneficios": [
+        "Plataforma Morphlite estable y liviana para caminar en ciudad"
+      ],
+      "contras": [
+        "Tacos cortos y caucho genérico: agarre medio en piedra mojada lisa",
+        "Menos amortiguado que un Clifton o Novablast"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-trail-morphlite-m-hombre-j00003472-9ug",
+          "variante": "Gris violáceo con suela crema (sin GTX)",
+          "precio": 349930,
+          "moneda": "COP",
+          "precio_final": 349930,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/152015140/tenis-hombre-morphlite-m-merrell-gris-merrell",
+          "variante": "Gris (Morphlite M, sin GTX)",
+          "precio": 349930,
+          "moneda": "COP",
+          "precio_final": 349930,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Hombre-MORPHLITE-M-MERRELL-Gris-Merrell-2810542.html",
+          "variante": "Gris (Morphlite M, sin GTX)",
+          "precio": 349930,
+          "moneda": "COP",
+          "precio_final": 349930,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Morphlite%20M%20(sin%20GTX)",
+          "variante": "Tiza/zafiro (sin GTX)",
+          "precio": 217547.76,
+          "moneda": "COP",
+          "precio_final": 224074,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "salomon-xa-pro-3d",
+      "marca": "Salomon",
+      "modelo": "XA Pro 3D (V9 / Sportstyle)",
+      "variante": "Black / Magnet",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 323,
+        "drop_mm": 11,
+        "suela": "Contagrip All Terrain, tacos de 3,5 mm",
+        "amortiguacion": "EVA firme con chasis moldeado; stack oficial 28,7/17,3 mm (RunRepeat midió 31,7/19,2). Peso 323 g por zapato (retail Salomon), 300 g según Altitude",
+        "fuentes": [
+          "https://www.runrepeat.com/salomon-xa-pro-3d-v9"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/salomon-xa-pro-3d-v9",
+          "https://www.rei.com/product/224537",
+          "https://www.altitude-sports.com/p/salomon-xa-pro-3d-v9-trail-running-shoes-womens-sal-l47118900"
+        ]
+      },
+      "beneficios": [
+        "Contagrip y chasis firme: el mejor agarre/estabilidad de la lista a precio medio"
+      ],
+      "contras": [
+        "Amortiguación firme: menos cómodo en caminatas muy largas que Clifton o Novablast",
+        "Más pesado (~323 g)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xa-pro-3d-in-black-magnet/dp/SMOF-MZ14/",
+          "variante": "Black / Magnet",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xa-pro-3d-sneakers-in-alloy-silver-lunar-rock/dp/SMOF-MZ197/",
+          "variante": "Alloy / Silver / Lunar Rock (gris)",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xa-pro-3d-sneakers-in-silver-sage-vanilla-ice-bistro-green/dp/SMOF-MZ288/",
+          "variante": "Silver Sage / Vanilla Ice / Bistro Green",
+          "precio": 481440,
+          "moneda": "COP",
+          "precio_final": 481440,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xa-pro-3d-alpine-echoes-sneakers-in-black-earth-brown-vanilla-ice/dp/SMOF-MZ279/",
+          "variante": "Black / Earth Brown / Vanilla Ice (Alpine Echoes)",
+          "precio": 577728,
+          "moneda": "COP",
+          "precio_final": 577728,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xa-pro-3d-gtx-in-black-silver/dp/SMOF-MZ258/",
+          "variante": "Black / Silver (GTX, impermeable)",
+          "precio": 513536,
+          "moneda": "COP",
+          "precio_final": 513536,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "salomon-xt-whisper",
+      "marca": "Salomon",
+      "modelo": "XT-Whisper",
+      "variante": "Black / Asphalt",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 290,
+        "drop_mm": 11,
+        "suela": "Contagrip (Mud) con tacos chevron",
+        "amortiguacion": "Stack 33/22 mm (Sneakersnstuff); peso 290 g por zapato y drop 11 mm (salomon.com)",
+        "fuentes": [
+          "https://www.salomon.com/en-gb/product/xt-whisper-li8028/L47801400"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 3,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.salomon.com/en-gb/product/xt-whisper-li8028/L47801400",
+          "https://www.sneakersnstuff.com/en-int/products/salomon-xt-whisper-l47878300"
+        ]
+      },
+      "beneficios": [
+        "Stack 33 mm y chasis firme, más estable que un max-cushion"
+      ],
+      "contras": [
+        "Sin reseña independiente de comodidad en las fuentes leídas",
+        "Drop 11 mm y ~290 g"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xtwhisper-sneakers-in-black-asphalt/dp/SMOF-MZ191/",
+          "variante": "Black / Asphalt",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xtwhisper-sneakers-in-black-black-olive-shadow-green/dp/SMOF-MZ298/",
+          "variante": "Black / Black Olive / Shadow Green",
+          "precio": 465392,
+          "moneda": "COP",
+          "precio_final": 465392,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xtwhisper-sneakers-in-black-white-maroon-banner/dp/SMOF-MZ292/",
+          "variante": "Black / White / Maroon Banner",
+          "precio": 465392,
+          "moneda": "COP",
+          "precio_final": 465392,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xtwhisper-sneakers-in-silver-lunar-rock-silver-cloud/dp/SMOF-MZ194/",
+          "variante": "Silver / Lunar Rock / Silver Cloud",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xtwhisper-in-white-lunar-rock-footwear-silver/dp/SMOF-MZ209/",
+          "variante": "White / Lunar Rock / Silver",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "adidas-adistar-control-5",
+      "marca": "adidas Originals",
+      "modelo": "Adistar Control 5 (Mossy Oak y colores neutros)",
+      "variante": "Plata metálico / Gris / Negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Caucho; unidad Adiprene+ en antepié y sistema Torsion en mediopié",
+        "amortiguacion": "Retro-runner lifestyle con malla técnica y overlays; peso, drop y stack no publicados en las fuentes leídas",
+        "fuentes": [
+          "https://www.finishline.com/pdp/mens-adidas-adistar-control-5-casual-shoes/prod30133991/LA6665/001"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.finishline.com/pdp/mens-adidas-adistar-control-5-casual-shoes/prod30133991/LA6665/001",
+          "https://solefeed.com/guide/adidas/adistar-control-5"
+        ]
+      },
+      "beneficios": [
+        "Stack bajo y sistema Torsion en mediopié"
+      ],
+      "contras": [
+        "Sin ficha de peso/stack ni reseñas independientes en las fuentes leídas",
+        "Malla abierta: sin repelencia al agua, no sirve bajo lluvia"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/adidas-originals-adistar-control-5-mossy-oak-sneaker-in-black-iron-metallic-carbon/dp/ADIO-MZ566/",
+          "variante": "Black / Iron Metallic / Carbon (Mossy Oak)",
+          "precio": 417248,
+          "moneda": "COP",
+          "precio_final": 417248,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=adidas%20Originals%20Adistar%20Control%205%20(Mossy%20Oak%20y%20colores%20neutros)",
+          "variante": "Plata metálico / Gris / Negro",
+          "precio": 259346.91,
+          "moneda": "COP",
+          "precio_final": 267127,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "salomon-xt-pathway-2",
+      "marca": "Salomon",
+      "modelo": "XT-Pathway 2",
+      "variante": "Negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 283,
+        "drop_mm": 11,
+        "suela": "Contagrip (Mud) con tacos chevron profundos",
+        "amortiguacion": "Midsole EnergyCell con Agile Chassis; stack no publicado. Peso 283 g por zapato, drop 11 mm (salomon.com)",
+        "fuentes": [
+          "https://www.salomon.com/en-ca/product/xt-pathway-2-li6523/L47690900"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.salomon.com/en-ca/product/xt-pathway-2-li6523/L47690900",
+          "https://www.salomon.com/en-fi/product/xt-pathway-2-li6523/L47686800",
+          "https://solefeed.com/guide/salomon/xt-pathway-2"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "En CO cuesta 699.900-767.920 (sobre el tope)",
+        "Sin reseña independiente de comodidad en las fuentes leídas"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xtpathway-2-sneaker-in-white-metal/dp/SOMO-MZ1/",
+          "variante": "White / Metal",
+          "precio": 417248,
+          "moneda": "COP",
+          "precio_final": 417248,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Salomon-XT-PATHWAY-2--Negro-2821359.html",
+          "variante": "Negro",
+          "precio": 699900,
+          "moneda": "COP",
+          "precio_final": 699900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/152273311/tenis-salomon-xt-pathway-2-negro",
+          "variante": "Negro",
+          "precio": 767920,
+          "moneda": "COP",
+          "precio_final": 767920,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-quantum-360",
+      "marca": "ASICS",
+      "modelo": "Gel-Quantum 360 I AMP / VIII Utility",
+      "variante": "Beige (Gel-Quantum 360 VIII Utility)",
+      "imagen": "img/urbano-beige.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 355,
+        "drop_mm": null,
+        "suela": "Caucho con GEL de longitud completa (Scutoid) y soporte Trusstic en mediopié",
+        "amortiguacion": "GEL visible de talón a antepié. Peso 355 g es del modelo VII (retailer europeo), no confirmado para la versión I AMP; stack y drop no publicados en las fuentes leídas",
+        "fuentes": [
+          "https://www.altitude-sports.com/products/asics-gel-quantum-360-vii-shoe-mens-llll-acs-1201a867",
+          "https://solefeed.com/guide/asics/gel-quantum-360"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 2,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://solefeed.com/guide/asics/gel-quantum-360",
+          "https://runnerclick.com/?p=12628",
+          "https://www.altitude-sports.com/products/asics-gel-quantum-360-vii-shoe-mens-llll-acs-1201a867"
+        ]
+      },
+      "beneficios": [
+        "Amortiguación GEL de longitud completa"
+      ],
+      "contras": [
+        "Suela de lifestyle con poco agarre en piedra mojada",
+        "Pesado (~355 g la serie 360 VII) y antepié algo bajo"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gelquantum-360-i-amp-in-cream-obsidian-grey/dp/AFSC-MZ328/",
+          "variante": null,
+          "precio": 462182,
+          "moneda": "COP",
+          "precio_final": 462182,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a471-024/p",
+          "variante": "Beige (Gel-Quantum 360 VIII Utility)",
+          "precio": 505720,
+          "moneda": "COP",
+          "precio_final": 505720,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        }
+      ]
+    },
+    {
+      "id": "tnf-glenclyffe-urban-low",
+      "marca": "The North Face",
+      "modelo": "Glenclyffe Urban Low",
+      "variante": "White Dune / TNF Black",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 408,
+        "drop_mm": null,
+        "suela": "SURFACE CTRL de caucho con tacos de 6 mm",
+        "amortiguacion": "EVA de una densidad con talonera TPU (heel cradle) para estabilidad. Peso aprox. 408 g por zapato (un solo retailer búlgaro); drop y stack no publicados",
+        "fuentes": [
+          "https://www.rei.com/product/231128/the-north-face-glenclyffe-urban-low-shoes"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rei.com/product/231128/the-north-face-glenclyffe-urban-low-shoes",
+          "https://strim-co.com/uniseks-obuvki-glenclyffe-urban-low-white-dune-tnf-black",
+          "https://altitude-sports.com/products/the-north-face-glenclyffe-urban-low-shoes-unisex-llll-tnf-nf0a8a96",
+          "https://www.rei.com/product/231128/the-north-face-glenclyffe-urban-low-shoes-mens"
+        ]
+      },
+      "beneficios": [
+        "Gamuza resistente al agua: aguanta llovizna en ciudad",
+        "Tacos de 6 mm y talonera TPU: estable y con agarre aceptable"
+      ],
+      "contras": [
+        "Pesado (~408 g)",
+        "No impermeable; poca información de comodidad en las fuentes leídas"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/the-north-face-glenclyffe-urban-low-in-white-dune-tnf-black/dp/TACF-MZ39/",
+          "variante": "White Dune / TNF Black",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/the-north-face-glenclyffe-in-tnf-black-anthracite-grey/dp/TACF-MZ43/",
+          "variante": "TNF Black / Anthracite Grey (Glenclyffe)",
+          "precio": 545632,
+          "moneda": "COP",
+          "precio_final": 545632,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "skechers-go-walk-max-cushioning",
+      "marca": "Skechers",
+      "modelo": "Go Walk Max Cushioning (Flex / Slip-ins / Hyper)",
+      "variante": "Negro/Blanco (Go Walk Max Cushioning Flex RAF)",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 213,
+        "drop_mm": null,
+        "suela": "Espuma 5GEN que hace de suela, con tacos bajos de caucho; mejor en pavimento",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/walking-shoes-men/skechers-go-walk-max"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 2,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/walking-shoes-men/skechers-go-walk-max",
+          "https://runnerclick.com/?p=118910"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "Durabilidad y soporte flojos en reseñas independientes"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73597467/tenis-skechers-go-walk-max-hombre",
+          "variante": "Negro (Slip-ins)",
+          "precio": 319990,
+          "moneda": "COP",
+          "precio_final": 319990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73597476/tenis-skechers-go-walk-max-hombre",
+          "variante": "Gris (Slip-ins)",
+          "precio": 319990,
+          "moneda": "COP",
+          "precio_final": 319990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/156041722/tenis-go-walk-max-cushioning-flex-skechers-hombre",
+          "variante": "Plateado (Flex)",
+          "precio": 329000,
+          "moneda": "COP",
+          "precio_final": 329000,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/155466407/tenis-go-walk-max-cushioning-flex-skechers-hombre",
+          "variante": "Plateado (Flex)",
+          "precio": 329000,
+          "moneda": "COP",
+          "precio_final": 329000,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/154133334/tenis-skechers-go-walk-max-cushioning-hombre",
+          "variante": "Negro",
+          "precio": 379500,
+          "moneda": "COP",
+          "precio_final": 379500,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/154133369/tenis-skechers-go-walk-max-cushioning-hombre",
+          "variante": "Gris",
+          "precio": 379500,
+          "moneda": "COP",
+          "precio_final": 379500,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/154133387/tenis-skechers-go-walk-max-cushioning-hombre",
+          "variante": "Azul",
+          "precio": 379500,
+          "moneda": "COP",
+          "precio_final": 379500,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73582508/tenis-skechers-go-walk-flex-hombre",
+          "variante": "Negro (Go Walk Flex, no Max)",
+          "precio": 199990,
+          "moneda": "COP",
+          "precio_final": 199990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Walking-SKECHERS-Go-Walk-Max-Cushioning-Flex-2861482.html",
+          "variante": "Negro",
+          "precio": 251900,
+          "moneda": "COP",
+          "precio_final": 251900,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Skechers%20Go%20Walk%20Max%20Cushioning%20(Flex%20%2F%20Slip-ins%20%2F%20Hyper)",
+          "variante": "Negro/Blanco (Go Walk Max Cushioning Flex RAF)",
+          "precio": 192147.97,
+          "moneda": "COP",
+          "precio_final": 197912,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "nike-zoom-vomero-5",
+      "marca": "Nike",
+      "modelo": "Zoom Vomero 5",
+      "variante": "Phantom / Flat Pewter / Copper Moon (gris con cobre)",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 316,
+        "drop_mm": 9.6,
+        "suela": "Caucho tipo waffle con Zoom Air en talón; plataforma Cushlon",
+        "amortiguacion": "Stack medido 31,4 mm talón / 21,8 mm antepié; Cushlon firme (51 AC) con unidad Zoom Air; peso no publicado de forma fiable",
+        "fuentes": [
+          "https://runrepeat.com/nike-zoom-vomero-5"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/nike-zoom-vomero-5",
+          "https://www.runrepeat.com/es/nike-zoom-vomero-5"
+        ]
+      },
+      "beneficios": [
+        "Zoom Air en talón: muy cómodo para caminar todo el día (RunRepeat)",
+        "Stack moderado (31 mm), más estable que un max-cushion"
+      ],
+      "contras": [
+        "Plataforma de running de hace 15 años: soporte lateral modesto",
+        "Sin dato de agarre en mojado"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/147333623/Tenis-Nike-Zoom-Vomero-5-Hombre",
+          "variante": "Gris",
+          "precio": 762300,
+          "moneda": "COP",
+          "precio_final": 762300,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/144857335/Tenis-Nike-Zoom-Vomero-5-Hombre",
+          "variante": "Morado",
+          "precio": 585200,
+          "moneda": "COP",
+          "precio_final": 585200,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Nike%20Zoom%20Vomero%205",
+          "variante": "Phantom / Flat Pewter / Copper Moon (gris con cobre)",
+          "precio": 368024.7,
+          "moneda": "COP",
+          "precio_final": 379065,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Nike%20Zoom%20Vomero%205",
+          "variante": "Iron Grey / Metallic Silver / Coconut Milk (gris)",
+          "precio": 448420,
+          "moneda": "COP",
+          "precio_final": 461873,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "new-balance-1906r",
+      "marca": "New Balance",
+      "modelo": "1906R",
+      "variante": "Negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 347,
+        "drop_mm": 11.5,
+        "suela": "Caucho con Stability Web y pods ABZORB SBS en talón",
+        "amortiguacion": "Stack medido 37,1 mm talón / 25,6 mm antepié (RunRepeat); amortiguación idéntica a la 2002R, absorción alta (106 SA); peso 347 g (retailer)",
+        "fuentes": [
+          "https://runrepeat.com/new-balance-1906r"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/new-balance-1906r"
+        ]
+      },
+      "beneficios": [
+        "Amortiguación alta (106 SA) y buen agarre según RunRepeat"
+      ],
+      "contras": [
+        "Pesado (~347 g) y voluminoso",
+        "En CO cuesta 615.930-879.990, sobre el tope"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73714746/tenis-new-balance-1906-hombre",
+          "variante": "Negro",
+          "precio": 879990,
+          "moneda": "COP",
+          "precio_final": 879990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/149856693/new-balance-1906r-tenis-negro-de-hombre-lifestyle",
+          "variante": "Negro",
+          "precio": 615930,
+          "moneda": "COP",
+          "precio_final": 615930,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=New%20Balance%201906R%20(Zalando%3A%20U1906%20%2F%20M1906R)",
+          "variante": "Negro",
+          "precio": 380356.25,
+          "moneda": "COP",
+          "precio_final": 391767,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-kayano-14",
+      "marca": "ASICS",
+      "modelo": "Gel-Kayano 14",
+      "variante": "Black / Pure Silver",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 352,
+        "drop_mm": 10.1,
+        "suela": "Caucho AHAR con geometría segmentada; DuoMax y puente Trusstic de estabilidad",
+        "amortiguacion": "Stack medido 32,7 mm talón / 22,6 mm antepié; absorción de impacto alta (101 SA) con EVA de las más firmes entre lifestyle; peso no publicado de forma fiable",
+        "fuentes": [
+          "https://www.runrepeat.com/asics-gel-kayano-14"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/asics-gel-kayano-14"
+        ]
+      },
+      "beneficios": [
+        "Diseñado como zapatilla de estabilidad: talón firme, DuoMax y puente Trusstic"
+      ],
+      "contras": [
+        "Espuma EVA antigua, firme y algo pesada, poco reactiva",
+        "Sin prueba de agarre en mojado; la suela es de zapatilla lifestyle",
+        "En CO el negro cuesta 699.950 (sobre el tope)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gelkayano-14-in-black-pure-silver/dp/AFSC-MZ89/",
+          "variante": "Black / Pure Silver",
+          "precio": 481440,
+          "moneda": "COP",
+          "precio_final": 481440,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gelkayano-14-in-cream-obsidian-grey/dp/AFSC-MZ335/",
+          "variante": null,
+          "precio": 359475,
+          "moneda": "COP",
+          "precio_final": 359475,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gelkayano-14-in-carrier-grey-black/dp/AFSC-MZ387/",
+          "variante": "Carrier Grey / Black",
+          "precio": 529584,
+          "moneda": "COP",
+          "precio_final": 529584,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gelkayano-14-in-concrete-pure-silver/dp/AFSC-MZ338/",
+          "variante": "Concrete / Pure Silver",
+          "precio": 513536,
+          "moneda": "COP",
+          "precio_final": 513536,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a537-002/p",
+          "variante": "Negro",
+          "precio": 699950,
+          "moneda": "COP",
+          "precio_final": 699950,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a537-112/p",
+          "variante": "Beige",
+          "precio": 447968,
+          "moneda": "COP",
+          "precio_final": 447968,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-1130",
+      "marca": "ASICS",
+      "modelo": "GEL-1130",
+      "variante": "Blanco",
+      "imagen": "img/urbano-gris.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 366,
+        "drop_mm": 10,
+        "suela": "Caucho con GEL y soporte Trusstic en mediopié",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.runrepeat.com/asics-gel-1130"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 4,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/asics-gel-1130",
+          "https://runrepeat.com/asics-gel-1130"
+        ]
+      },
+      "beneficios": [
+        "Zapatilla de estabilidad retro-runner (RunRepeat: estabilidad 95/100)"
+      ],
+      "contras": [
+        "Algo rígida (RunRepeat)",
+        "Sin prueba de agarre en mojado"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a609-024/p",
+          "variante": "Gris",
+          "precio": 459950,
+          "moneda": "COP",
+          "precio_final": 459950,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a609-111/p",
+          "variante": "Blanco",
+          "precio": 367960,
+          "moneda": "COP",
+          "precio_final": 367960,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-nyc",
+      "marca": "ASICS",
+      "modelo": "GEL-NYC",
+      "variante": "Beige",
+      "imagen": "img/urbano-beige.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 373,
+        "drop_mm": 10,
+        "suela": "Caucho con GEL en talón y antepié",
+        "amortiguacion": "Stack medido 34,8 mm talón / 24,8 mm antepié (RunRepeat); energía devuelta 45 % (bajo el promedio); peso no publicado de forma fiable",
+        "fuentes": [
+          "https://www.runrepeat.com/asics-gel-nyc"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/asics-gel-nyc",
+          "https://runrepeat.com/asics-gel-nyc"
+        ]
+      },
+      "beneficios": [
+        "Marcha estable y consistente (RunRepeat)"
+      ],
+      "contras": [
+        "Talón de 34,8 mm: más alto que el 1130",
+        "Poco rebote (45 % de retorno)",
+        "Sin dato de agarre en mojado"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a383-114/p",
+          "variante": "Beige",
+          "precio": 519960,
+          "moneda": "COP",
+          "precio_final": 519960,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        }
+      ]
+    },
+    {
+      "id": "adidas-terrex-tracefinder-2",
+      "marca": "adidas Terrex",
+      "modelo": "Tracefinder 2",
+      "variante": "Verde",
+      "imagen": "img/urbano-oliva.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 312,
+        "drop_mm": 10,
+        "suela": "Caucho Traxion con tacos para trail",
+        "amortiguacion": "Lightmotion; talón 29 mm / antepié 19 mm según adidas (no es medida independiente). Peso 311,8 g en la versión Tent Green",
+        "fuentes": [
+          "https://www.adidas.fi/terrex-tracefinder-2-climaproof-trail-running-shoes/JR9140.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.adidas.fi/terrex-tracefinder-2-climaproof-trail-running-shoes/JR9140.html"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "Sin reseña independiente de comodidad ni de agarre en mojado",
+        "Clientes lo describen más cerca del hiking, algo duro",
+        "La versión base no es impermeable"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Trail-Running-adidas-TERREX-Tracefinder-Negro-2701328.html",
+          "variante": "Negro",
+          "precio": 295900,
+          "moneda": "COP",
+          "precio_final": 295900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73233416/Tenis-Adidas-para-Hombre-Trail-running-Terrex-Tracefinder-2",
+          "variante": "Negro",
+          "precio": 349990,
+          "moneda": "COP",
+          "precio_final": 349990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73679564/tenis-adidas-terrex-tracefinder-hom",
+          "variante": "Beige",
+          "precio": 349990,
+          "moneda": "COP",
+          "precio_final": 349990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/157829060/tenis-adidas-terrex-tracefinder-hombre",
+          "variante": "Gris",
+          "precio": 378000,
+          "moneda": "COP",
+          "precio_final": 378000,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/151904936/tenis-adidas-hombre-terrex-tracefinder-2-ji4285",
+          "variante": "Verde",
+          "precio": 262463,
+          "moneda": "COP",
+          "precio_final": 262463,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "merrell-moab-speed-2-sp",
+      "marca": "Merrell",
+      "modelo": "Moab Speed 2 Sport (SP)",
+      "variante": "Multicolor",
+      "imagen": "img/urbano-gris.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 340,
+        "drop_mm": 10,
+        "suela": "Vibram TC5+ con placa de roca, tacos de 4 mm",
+        "amortiguacion": "Stack 34/24 mm, drop 10 mm; peso 340 g (Merrell) u otras fichas 12,34 oz; sin reseña independiente de la versión Sport",
+        "fuentes": [
+          "https://www.merrell.com/CA/en_CA/moab-speed-2/58711M.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.merrell.com/CA/en_CA/moab-speed-2/58711M.html",
+          "https://www.altitude-sports.com/p/merrell-moab-speed-2-sport-hiking-shoes-mens-mer-j00003693"
+        ]
+      },
+      "beneficios": [
+        "Vibram TC5+ y placa de roca: muy buen agarre y estabilidad",
+        "Precio 383.940 (antes 639.900)"
+      ],
+      "contras": [
+        "Más pesado (340 g) y menos acolchado que los running",
+        "Multicolor: confirmar tonos"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/146558465/Tenis-Hombre-Merrell-MOAB-SPEED-2-SP-Multicolor-MERRELL",
+          "variante": "Multicolor",
+          "precio": 383940,
+          "moneda": "COP",
+          "precio_final": 383940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Hombre-Merrell-MOAB-SPEED-2-SP-Multicolor-Merrell-2861368.html",
+          "variante": "Multicolor",
+          "precio": 383940,
+          "moneda": "COP",
+          "precio_final": 383940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "brooks-ghost-17",
+      "marca": "Brooks",
+      "modelo": "Ghost 17",
+      "variante": "Negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 284,
+        "drop_mm": 10.4,
+        "suela": "RoadTack, caucho para asfalto",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.runrepeat.com/brooks-ghost-17"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/brooks-ghost-17",
+          "https://www.roadtrailrun.com/2025/06/brooks-ghost-17-review.html"
+        ]
+      },
+      "beneficios": [
+        "Trainer neutro cómodo y muy probado para caminar",
+        "Peso 284 g"
+      ],
+      "contras": [
+        "Stack de 36 mm con espuma blanda: estabilidad media",
+        "Agarre promedio en asfalto mojado (Road Trail Run)",
+        "Cuesta casi 536.000: estira el tope"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73644578/tenis-brooks-ghost-17-hombre",
+          "variante": "Negro",
+          "precio": 535890,
+          "moneda": "COP",
+          "precio_final": 535890,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-cumulus-28",
+      "marca": "ASICS",
+      "modelo": "Gel-Cumulus 28 (y 27)",
+      "variante": "Negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 252,
+        "drop_mm": 13.3,
+        "suela": "Caucho AHAR",
+        "amortiguacion": "Trainer neutro de amortiguación media-alta; ficha de peso/stack no consultada para la 28 (la 27 se cita ~267 g, sin verificar)",
+        "fuentes": [
+          "https://www.asics.com.co/1011c143-003/p"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 5,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/running-shoes/reviews/asics/gel-cumulus-28",
+          "https://runrepeat.com/asics-gel-cumulus-28"
+        ]
+      },
+      "beneficios": [
+        "Trainer neutro ASICS con 519.960 en tienda oficial"
+      ],
+      "contras": [
+        "Cumulus 27 casi sin stock en CO"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011c143-003/p",
+          "variante": "Negro",
+          "precio": 519960,
+          "moneda": "COP",
+          "precio_final": 519960,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011c143-400/p",
+          "variante": "Azul",
+          "precio": 519960,
+          "moneda": "COP",
+          "precio_final": 519960,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1011b960-022/p",
+          "variante": "Gris (Cumulus 27)",
+          "precio": 386720,
+          "moneda": "COP",
+          "precio_final": 386720,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        }
+      ],
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "new-balance-370",
+      "marca": "New Balance",
+      "modelo": "370",
+      "variante": "Café",
+      "imagen": "img/urbano-cafe.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 320,
+        "drop_mm": null,
+        "suela": "Caucho con dibujo multidireccional",
+        "amortiguacion": "Retro de menor amortiguación que los de running; peso ~320 g, no verificado de nuevo",
+        "fuentes": [
+          "https://www.falabella.com.co/falabella-co/product/148507969/tenis-new-balance-370-hombre-cafe"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Retro versátil en café y negro"
+      ],
+      "contras": [
+        "Menos amortiguación que los de running",
+        "Sin ficha ni reseñas leídas"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/148507969/tenis-new-balance-370-hombre-cafe",
+          "variante": "Café",
+          "precio": 459990,
+          "moneda": "COP",
+          "precio_final": 459990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/148508408/tenis-new-balance-370-hombre-negro",
+          "variante": "Negro",
+          "precio": 459990,
+          "moneda": "COP",
+          "precio_final": 459990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/152131554/tenis-new-balance-370-hombre-negro",
+          "variante": "Negro",
+          "precio": 499990,
+          "moneda": "COP",
+          "precio_final": 499990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ]
+    },
+    {
+      "id": "new-balance-9060",
+      "marca": "New Balance",
+      "modelo": "9060",
+      "variante": "Café",
+      "imagen": "img/urbano-cafe.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 427,
+        "drop_mm": null,
+        "suela": "Caucho con suela voluminosa",
+        "amortiguacion": "Peso ~427 g; pesado y voluminoso",
+        "fuentes": [
+          "https://runrepeat.com/new-balance-9060"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Cómodo y de buen agarre",
+        "Plataforma ancha"
+      ],
+      "contras": [
+        "Pesado (~427 g) y voluminoso",
+        "En Falabella CO cuesta 759.990-849.990",
+        "No pasa el tope"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73542505/tenis-nb-u9060493-hombre",
+          "variante": "Café",
+          "precio": 759990,
+          "moneda": "COP",
+          "precio_final": 759990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/73542602/tenis-nb-u9060gry-hombre",
+          "variante": "Gris",
+          "precio": 849990,
+          "moneda": "COP",
+          "precio_final": 849990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ]
+    },
+    {
+      "id": "nike-p-6000",
+      "marca": "Nike",
+      "modelo": "P-6000",
+      "variante": "Gris metalizado",
+      "imagen": "img/urbano-gris.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": "Retro-runner Nike con malla y capas; sin ficha leída",
+        "fuentes": [
+          "https://www.falabella.com.co/falabella-co/product/152723364/tenis-nike-p-6000-metallic-silver-hombre"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [],
+      "contras": [
+        "En CO cuesta 762.000-776.000 (sobre el tope)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/152723364/tenis-nike-p-6000-metallic-silver-hombre",
+          "variante": "Gris metalizado",
+          "precio": 776000,
+          "moneda": "COP",
+          "precio_final": 776000,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/152711199/tenis-nike-p-6000-gris-metallic-hombre",
+          "variante": "Gris metalizado",
+          "precio": 762000,
+          "moneda": "COP",
+          "precio_final": 762000,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ]
+    },
+    {
+      "id": "asics-gt-2160",
+      "marca": "ASICS",
+      "modelo": "GT-2160",
+      "variante": "Cream / Carbon",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 340,
+        "drop_mm": 7.9,
+        "suela": "Caucho AHAR",
+        "amortiguacion": "Stack medido 31,1 mm talón / 23,2 mm antepié (RunRepeat); RunRepeat: zapatilla casual, no para correr; el peso de 350 g viene de una reseña de 2011 de la versión original, no confiable",
+        "fuentes": [
+          "https://runrepeat.com/asics-gt-2160"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/asics-gt-2160",
+          "https://www.runningshoesguru.com/2011/02/asics-gt-2160-running-shoes-review/"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "RunRepeat: no es para correr; comodidad media",
+        "Sin dato de agarre en mojado"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a764-100/p",
+          "variante": "Blanco",
+          "precio": 381564,
+          "moneda": "COP",
+          "precio_final": 381564,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gt2160-in-cream-carbon/dp/AFSC-MZ316/",
+          "variante": "Cream / Carbon",
+          "precio": 292074,
+          "moneda": "COP",
+          "precio_final": 292074,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "script"
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-cumulus-16",
+      "marca": "ASICS",
+      "modelo": "Gel-Cumulus 16 (reedición retro)",
+      "variante": "Graphite Grey / Black",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": "Reedición retro con amortiguación de una generación vieja; sin ficha leída",
+        "fuentes": [
+          "https://www.asics.com.co/1203a733-100/p"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Retro barato"
+      ],
+      "contras": [],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203a733-100/p",
+          "variante": "Blanco",
+          "precio": 356970,
+          "moneda": "COP",
+          "precio_final": 356970,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "asics.com.co",
+          "pais": "CO",
+          "url": "https://www.asics.com.co/1203b072-020/p",
+          "variante": "Gris",
+          "precio": 649950,
+          "moneda": "COP",
+          "precio_final": 649950,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (VTEX)"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/asics-gelcumulus-16-in-graphite-grey-black/dp/AFSC-MZ401/",
+          "variante": "Graphite Grey / Black",
+          "precio": 314541,
+          "moneda": "COP",
+          "precio_final": 314541,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "script"
+        }
+      ]
+    },
+    {
+      "id": "on-cloudmonster-void",
+      "marca": "On",
+      "modelo": "Cloudmonster Void",
+      "variante": "Ember Ox",
+      "imagen": "img/urbano-gris.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "CloudTec Phase",
+        "amortiguacion": "Muy acolchado, estilo \"Cloud\" sin ficha leída",
+        "fuentes": [
+          "https://www.falabella.com.co/falabella-co/product/146307024/Tenis-on-de-hombre-cloudmonster-void-ON-RUNNING-Blanco-3MF10671200WHI"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Referencia de estilo On muy acolchado"
+      ],
+      "contras": [
+        "Falabella 799.990-999.990 (sobre el tope)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/146307024/Tenis-on-de-hombre-cloudmonster-void-ON-RUNNING-Blanco-3MF10671200WHI",
+          "variante": "Blanco",
+          "precio": 999990,
+          "moneda": "COP",
+          "precio_final": 999990,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/on-cloudmonster-void-in-ember-ox/dp/ONF-MZ715/",
+          "variante": "Ember Ox",
+          "precio": 462182,
+          "moneda": "COP",
+          "precio_final": 462182,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "script"
+        }
+      ]
+    },
+    {
+      "id": "puma-extos-retro-runner",
+      "marca": "Puma",
+      "modelo": "Extos",
+      "variante": "Plateado / negro",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": "Ficha no leída (prioridad baja)",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Retro-runner Y2K plateado de Puma a precio bajo"
+      ],
+      "contras": [
+        "Sin ficha ni reseñas leídas"
+      ],
+      "estado": "candidato",
+      "ofertas": []
+    },
+    {
+      "id": "columbia-terrastride-bc",
+      "marca": "Columbia",
+      "modelo": "Terrastride BC",
+      "variante": "Negro/Super Sonic",
+      "imagen": "img/urbano-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 330,
+        "drop_mm": null,
+        "suela": "Omni-Grip",
+        "amortiguacion": "TechLite Eco",
+        "fuentes": [
+          "https://www.amazon.com/s?k=Columbia%20Terrastride%20BC"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.columbia.com/p/mens-terrastride-bc-shoe-2149881.html",
+          "https://www.zappos.com/p/mens-columbia-terrastride-bc/product/10028791",
+          "https://www.nordstrom.com/s/columbia-terrastride-bc-hiking-shoe-men/8725727"
+        ]
+      },
+      "beneficios": [
+        "Senderismo a ciudad, transpirable, TechLite Eco"
+      ],
+      "contras": [
+        "Sin membrana: no sirve como compra principal de lluvia",
+        "Sin reseña independiente leída"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Terrastride%20BC",
+          "variante": "Negro/Super Sonic",
+          "precio": 325232,
+          "moneda": "COP",
+          "precio_final": 334989,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "merrell-speed-strike-2",
+      "marca": "Merrell",
+      "modelo": "Speed Strike 2",
+      "variante": "Hongos (Fungi)",
+      "imagen": "img/urbano-gris.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": 349,
+        "drop_mm": 13.5,
+        "suela": "Goma adherente Merrell (no Vibram), tacos de 4 mm; entresuela de espuma ligera",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Merrell%20Speed%20Strike%202"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/merrell-speed-strike-2",
+          "https://www.merrell.com/US/en/speed-strike-2/59768M.html",
+          "https://virat.blog/merrell-speed-strike-2-review/"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "Sin membrana: no sirve como compra principal de lluvia",
+        "Todos vendedores terceros (Shoes Best, Superior Fast Shipping)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Speed%20Strike%202",
+          "variante": "Hongos (Fungi)",
+          "precio": 286778,
+          "moneda": "COP",
+          "precio_final": 295382,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    }
+  ]
+}

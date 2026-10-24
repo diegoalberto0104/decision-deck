@@ -1,0 +1,51 @@
+{
+  "name": "decision-deck",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-data.mjs && vite",
+    "build": "node scripts/build-data.mjs && tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "data": "node scripts/build-data.mjs",
+    "data:zapatos": "node scripts/build-data.mjs --config examples/zapatos/decision.config.json",
+    "check:dominio": "node gates/check-dominio.mjs",
+    "check:privado": "node gates/check-privado.mjs",
+    "data:audifonos": "node scripts/build-data.mjs --config examples/audifonos/decision.config.json",
+    "check:ejemplos": "node gates/check-ejemplos.mjs"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.9.0",
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.55.0",
+    "motion": "^14.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "^3.8.0",
+    "shadcn": "^4.21.4",
+    "sonner": "^2.0.8",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
+    "tw-animate-css": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "decisionDeck": {
+    "ejemplo": "examples/zapatos/decision.config.json"
+  },
+  "license": "MIT"
+}

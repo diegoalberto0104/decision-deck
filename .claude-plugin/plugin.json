@@ -1,0 +1,6 @@
+{
+  "name": "decision-deck",
+  "description": "Método para decidir una compra con agentes: criterios, investigación, auditoría y compilación.",
+  "version": "0.1.0",
+  "license": "MIT"
+}

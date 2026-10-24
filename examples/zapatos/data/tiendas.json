@@ -1,0 +1,123 @@
+{
+  "$schema": "../../../schema/datos.schema.json",
+  "tiendas": [
+    {
+      "id": "falabella.com.co",
+      "nombre": "Falabella",
+      "pais": "CO",
+      "url": "https://www.falabella.com.co",
+      "tipo": "multimarca",
+      "estado": "revisada",
+      "metodo": "script (__NEXT_DATA__)"
+    },
+    {
+      "id": "revolveclothing.es",
+      "nombre": "Revolve",
+      "pais": "US",
+      "url": "https://www.revolveclothing.es",
+      "tipo": "multimarca",
+      "estado": "revisada",
+      "metodo": "navegador"
+    },
+    {
+      "id": "dafiti.com.co",
+      "nombre": "Dafiti",
+      "pais": "CO",
+      "url": "https://www.dafiti.com.co",
+      "tipo": "multimarca",
+      "estado": "revisada",
+      "metodo": "script"
+    },
+    {
+      "id": "decathlon.com.co",
+      "nombre": "Decathlon Colombia",
+      "pais": "CO",
+      "url": "https://www.decathlon.com.co",
+      "tipo": "multimarca",
+      "estado": "revisada",
+      "metodo": "navegador"
+    },
+    {
+      "id": "asics.com.co",
+      "nombre": "ASICS Colombia",
+      "pais": "CO",
+      "url": "https://www.asics.com.co",
+      "tipo": "oficial",
+      "estado": "revisada",
+      "metodo": "script (VTEX)"
+    },
+    {
+      "id": "merrell.com.co",
+      "nombre": "Merrell Colombia",
+      "pais": "CO",
+      "url": "https://www.merrell.com.co",
+      "tipo": "oficial",
+      "estado": "revisada",
+      "metodo": "script (Shopify)"
+    },
+    {
+      "id": "columbia.com.co",
+      "nombre": "Columbia Colombia",
+      "pais": "CO",
+      "url": "https://www.columbia.com.co",
+      "tipo": "oficial",
+      "estado": "revisada",
+      "metodo": "script (Shopify)"
+    },
+    {
+      "id": "newbalance.com.co",
+      "nombre": "New Balance Colombia",
+      "pais": "CO",
+      "url": "https://www.newbalance.com.co",
+      "tipo": "oficial",
+      "estado": "revisada",
+      "metodo": "script (Shopify)"
+    },
+    {
+      "id": "thenorthface.com.co",
+      "nombre": "The North Face Colombia",
+      "pais": "CO",
+      "url": "https://www.thenorthface.com.co",
+      "tipo": "oficial",
+      "estado": "sin_resultados",
+      "metodo": "script",
+      "nota": "Sus impermeables cuestan 759.900 o más"
+    },
+    {
+      "id": "adidas.co",
+      "nombre": "adidas Colombia",
+      "pais": "CO",
+      "url": "https://www.adidas.co",
+      "tipo": "oficial",
+      "estado": "revisada",
+      "metodo": "navegador"
+    },
+    {
+      "id": "mercadolibre.com.co",
+      "nombre": "Mercado Libre",
+      "pais": "CO",
+      "url": "https://www.mercadolibre.com.co",
+      "tipo": "marketplace",
+      "estado": "revisada",
+      "metodo": "navegador"
+    },
+    {
+      "id": "amazon.com",
+      "nombre": "Amazon",
+      "pais": "US",
+      "url": "https://www.amazon.com",
+      "tipo": "marketplace",
+      "estado": "revisada",
+      "metodo": "navegador"
+    },
+    {
+      "id": "sportline.com.co",
+      "nombre": "Sportline",
+      "pais": "CO",
+      "url": "https://www.sportline.com.co",
+      "tipo": "multimarca",
+      "estado": "revisada",
+      "metodo": "script (VTEX)"
+    }
+  ]
+}

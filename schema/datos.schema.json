@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "datos.schema.json",
+  "title": "Archivo de datos (data/*.json)",
+  "description": "Un archivo por segmento con `items`, o `tiendas.json` con `tiendas`. Lo escriben las skills `investigar` y `auditar`.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "segmento": { "type": "string", "description": "Segmento por defecto de los ítems. Si falta, se usa el nombre del archivo." },
+    "generado": { "type": "string", "format": "date" },
+    "items": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+    "tiendas": { "type": "array", "items": { "$ref": "#/$defs/tienda" } }
+  },
+  "$defs": {
+    "nota": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+    "fuentes": { "type": "array", "items": { "type": "string" } },
+    "item": {
+      "type": "object",
+      "required": ["id", "marca", "modelo", "ofertas"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+        "segmento": { "type": "string" },
+        "marca": { "type": "string" },
+        "modelo": { "type": "string" },
+        "variante": { "type": ["string", "null"], "description": "Color, capacidad, talla: lo que aplique." },
+        "imagen": { "type": ["string", "null"], "description": "Ruta relativa a la config (SVG o foto local) o URL. Las fotos de tiendas no se suben al repo." },
+        "ficha": {
+          "type": "object",
+          "description": "Datos técnicos libres. `fuentes` lista de dónde salen.",
+          "properties": { "fuentes": { "$ref": "#/$defs/fuentes" } },
+          "additionalProperties": { "type": ["string", "number", "boolean", "null"] }
+        },
+        "notas": {
+          "type": "object",
+          "description": "Una nota de 1 a 5 por eje (id del eje), o null si no hay fuente.",
+          "properties": { "fuentes": { "$ref": "#/$defs/fuentes" } },
+          "additionalProperties": { "$ref": "#/$defs/nota" }
+        },
+        "sirve_en": {
+          "type": "object",
+          "description": "Qué tan bien sirve en otros segmentos, de 1 a 5.",
+          "additionalProperties": { "$ref": "#/$defs/nota" }
+        },
+        "beneficios": { "type": "array", "items": { "type": "string" } },
+        "contras": { "type": "array", "items": { "type": "string" } },
+        "estado": { "enum": ["candidato", "descartado"], "default": "candidato" },
+        "motivo": { "type": "string", "description": "Por qué se descartó." },
+        "alerta": { "type": "string", "description": "Algo que revisar antes de comprar. No descarta." },
+        "ofertas": { "type": "array", "items": { "$ref": "#/$defs/oferta" } }
+      }
+    },
+    "oferta": {
+      "type": "object",
+      "required": ["tienda", "url", "precio_final", "disponible", "verificado"],
+      "additionalProperties": false,
+      "properties": {
+        "tienda": { "type": "string" },
+        "pais": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "variante": { "type": ["string", "null"] },
+        "precio": { "type": ["number", "null"], "description": "Precio publicado, en su moneda." },
+        "moneda": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "precio_final": { "type": ["number", "null"], "description": "Precio con todo (envío, impuestos, comisión), en la moneda de la config." },
+        "disponible": { "type": "boolean", "description": "Se puede comprar hoy en la variante que sirve." },
+        "verificado": { "type": ["string", "null"], "format": "date", "description": "Fecha en que se leyó en la tienda." },
+        "metodo": { "type": "string", "description": "Cómo se leyó: script (Shopify), script (VTEX), navegador…" },
+        "nota": { "type": "string" }
+      }
+    },
+    "tienda": {
+      "type": "object",
+      "required": ["id", "nombre", "estado"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "nombre": { "type": "string" },
+        "pais": { "type": "string" },
+        "url": { "type": "string" },
+        "tipo": { "enum": ["oficial", "multimarca", "marketplace", "otro"] },
+        "estado": { "enum": ["revisada", "bloqueada", "pendiente", "sin_resultados"] },
+        "metodo": { "type": "string" },
+        "nota": { "type": "string" }
+      }
+    }
+  }
+}

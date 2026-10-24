@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+
+/* Solo modo oscuro: las variantes dark: de shadcn quedan siempre activas. */
+@custom-variant dark (&:where(*));
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-si: var(--si);
+  --color-no: var(--no);
+  --color-talvez: var(--talvez);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 20px;
+  --radius-4xl: 24px;
+}
+
+:root {
+  color-scheme: dark;
+  --background: #07090c;
+  --foreground: #e6edf3;
+  --card: #0e1217;
+  --card-foreground: #e6edf3;
+  --popover: #141a21;
+  --popover-foreground: #e6edf3;
+  --primary: #00f0c8;
+  --primary-foreground: #04120f;
+  --secondary: #141a21;
+  --secondary-foreground: #e6edf3;
+  --muted: #141a21;
+  --muted-foreground: #8b98a5;
+  --accent: #141a21;
+  --accent-foreground: #e6edf3;
+  --destructive: #ff4d6d;
+  --border: #1f2a33;
+  --input: #1f2a33;
+  --ring: #00f0c8;
+  --chart-1: #00f0c8;
+  --chart-2: #7c9cff;
+  --chart-3: #ff7ae0;
+  --radius: 12px;
+  --surface: #0e1217;
+  --surface-2: #141a21;
+  --si: #00f0c8;
+  --no: #ff4d6d;
+  --talvez: #ffc857;
+  --glow: 0 0 0 1px rgb(0 240 200 / 0.55), 0 0 18px rgb(0 240 200 / 0.28);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    background-image:
+      linear-gradient(rgb(139 152 165 / 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(139 152 165 / 0.045) 1px, transparent 1px);
+    background-size: 32px 32px;
+    background-attachment: fixed;
+  }
+  :focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    box-shadow: 0 0 14px rgb(0 240 200 / 0.35);
+  }
+  button, a, [role="tab"] {
+    touch-action: manipulation;
+  }
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+.glow-accent {
+  box-shadow: var(--glow);
+}
+
+.frontera-glow {
+  filter: drop-shadow(0 0 5px rgb(0 240 200 / 0.55));
+}

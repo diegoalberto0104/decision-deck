@@ -1,0 +1,2616 @@
+{
+  "$schema": "../../../schema/datos.schema.json",
+  "segmento": "lluvia",
+  "items": [
+    {
+      "id": "merrell-speed-strike-2-gtx",
+      "marca": "Merrell",
+      "modelo": "Speed Strike 2 GTX",
+      "variante": "Gris verdoso (sage)",
+      "imagen": "img/trail-oliva.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 370,
+        "drop_mm": 13.5,
+        "suela": "Goma Merrell adherente (tacos ~3,7 mm), entresuela EVA ligera, plantilla EVA 50% reciclada",
+        "amortiguacion": "Media-alta (EVA ligera; stack talón 37 mm, delantero 23,5 mm)",
+        "fuentes": [
+          "https://runrepeat.com/merrell-speed-strike-2",
+          "https://www.merrell.com.co/products/botines-hike-speed-strike-2-gtx-hombre-j038375-35r"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/merrell-speed-strike-2"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex de verdad con aspecto de tenis",
+        "Contrafuerte de talón firme (5/5 RunRepeat)",
+        "Más liviano que el promedio, caja de dedos amplia"
+      ],
+      "contras": [
+        "Agarre en piso mojado medio (caucho genérico Merrell, tacos de 3,7 mm)",
+        "Malla del forro/talón se rompe pronto (RunRepeat)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/botines-hike-speed-strike-2-gtx-hombre-j038375-35r",
+          "variante": "Gris verdoso (sage)",
+          "precio": 447930,
+          "moneda": "COP",
+          "precio_final": 447930,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/153653305/tenis-hombre-speed-strike-2-gtx-merrell-gris-merrell",
+          "variante": "Gris verdoso (sage)",
+          "precio": 447930,
+          "moneda": "COP",
+          "precio_final": 447930,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Hombre-SPEED-STRIKE-2-GTX-MERRELL-Gris-Merrell-2810534.html",
+          "variante": "Gris verdoso (sage)",
+          "precio": 447930,
+          "moneda": "COP",
+          "precio_final": 447930,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "mercadolibre.com.co",
+          "pais": "CO",
+          "url": "https://articulo.mercadolibre.com.co/MCO-3533115112-tenis-hombre-speed-strike-2-gtx-merrell-gris-_JM",
+          "variante": "Gris",
+          "precio": 639900,
+          "moneda": "COP",
+          "precio_final": 639900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "adidas-terrex-anylander-rainrdy",
+      "marca": "adidas Terrex",
+      "modelo": "Anylander RAIN.RDY",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "RAIN.RDY",
+        "membrana_verificada": true,
+        "peso_g": 390,
+        "drop_mm": 10,
+        "suela": "Traxion (caucho con tacos multidireccionales)",
+        "amortiguacion": "Media (talón 27 mm, delantero 17 mm)",
+        "fuentes": [
+          "https://www.skroutz.eu/s/55623316/adidas-Terrex-Anylander-Rain-rdy-Men-s-Waterproof-Hiking-Shoes-Black-ID0901.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/adidas-terrex-anylander-rain-rdy"
+        ]
+      },
+      "beneficios": [
+        "RAIN.RDY confirmado en la versión de hombre de Dafiti",
+        "Liviano (~390 g) y de corte bajo",
+        "Stack bajo (27 mm), menos inestable que un tenis de running alto"
+      ],
+      "contras": [
+        "RAIN.RDY es capa repelente, no membrana laminada: menos garantía que Gore-Tex/Outdry",
+        "Amortiguación justa para 5–8 km al día (reseñas mixtas)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "dafiti.com.co",
+          "pais": "CO",
+          "url": "https://www.dafiti.com.co/Tenis-Senderismo-Negro-Adidas-Terrex-Anylander-RainRdy-Hombre-2858890.html",
+          "variante": "Negro",
+          "precio": 404955,
+          "moneda": "COP",
+          "precio_final": 404955,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "adidas.co",
+          "pais": "CO",
+          "url": "https://www.adidas.co/tenis-de-senderismo-terrex-anylander-rain.rdy/ID0901.html",
+          "variante": "Negro",
+          "precio": 404955,
+          "moneda": "COP",
+          "precio_final": 404955,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "columbia-strata-trail-low-wp",
+      "marca": "Columbia",
+      "modelo": "Strata Trail Low WP",
+      "variante": "Gris con acentos rojo/rosa",
+      "imagen": "img/trail-rojo.svg",
+      "ficha": {
+        "membrana": "Omni-Tech",
+        "membrana_verificada": true,
+        "peso_g": 354,
+        "drop_mm": null,
+        "suela": "Omni-Grip, caucho de alta tracción (no marcante), mediasuela Techlite",
+        "amortiguacion": "Techlite (marketing: amortiguación superior)",
+        "fuentes": [
+          "https://www.columbia.com/p/mens-strata-trail-low-waterproof-shoe-2076891.html",
+          "https://www.columbia.com.co/products/tenis-strata-trail-low-wp-hombre-2076891-6rx"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Omni-Tech confirmado, liviano (354 g)",
+        "El más barato de la lista: 299.940 COP en outlet"
+      ],
+      "contras": [
+        "El 299.940 es solo el gris del outlet; los otros colores cuestan 499.900",
+        "Sin review independiente de comodidad ni estabilidad"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-strata-trail-low-wp-hombre-2076891-6rx",
+          "variante": "Gris con acentos rojo/rosa",
+          "precio": 299940,
+          "moneda": "COP",
+          "precio_final": 299940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/botas-impermeables-de-senderismo-strata-trail-de-columbia-para-hombre-2076891-xp9",
+          "variante": "Negro",
+          "precio": 499900,
+          "moneda": "COP",
+          "precio_final": 499900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/botas-impermeables-de-senderismo-strata-trail-de-columbia-para-hombre-2076891-iu4",
+          "variante": "Café",
+          "precio": 499900,
+          "moneda": "COP",
+          "precio_final": 499900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/158555440/tenis-hombre-columbia-strata-trail-low-wp-gris-columbia",
+          "variante": "Gris",
+          "precio": 499900,
+          "moneda": "COP",
+          "precio_final": 499900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/150898675/tenis-hombre-columbia-strata-trail-low-wp-negro-columbia",
+          "variante": "Negro",
+          "precio": 499900,
+          "moneda": "COP",
+          "precio_final": 499900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "columbia-peakfreak-ii-outdry",
+      "marca": "Columbia",
+      "modelo": "Peakfreak II Outdry",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": 380,
+        "drop_mm": null,
+        "suela": "Adapt Trax con tacos de ~4 mm",
+        "amortiguacion": "Techlite",
+        "fuentes": [
+          "https://Backcountry.Com/columbia-peakfreak-ii-outdry-hiking-shoe-mens",
+          "https://www.countryfile.com/reviews/footwear/columbia-peakfreak-ii-mid-outdry-boot",
+          "https://www.columbia.com.co/products/tenis-para-senderismo-peakfreak-ii-outdry-hombre-2100711-xp9",
+          "https://www.advnture.com/reviews/columbia-peakfreak-ii-outdry-waterproof-walking-shoe"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 4,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.advnture.com/reviews/columbia-peakfreak-ii-outdry-waterproof-walking-shoe"
+        ]
+      },
+      "beneficios": [
+        "Outdry: membrana pegada a la capellada, no se empapa por fuera",
+        "Buen agarre (4 mm) y talón bien sujeto en reviews"
+      ],
+      "contras": [
+        "Peso con cifras contradictorias (380–500 g)",
+        "Drop y stack no publicados"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-para-senderismo-peakfreak-ii-outdry-hombre-2100711-xp9",
+          "variante": "Negro",
+          "precio": 449940,
+          "moneda": "COP",
+          "precio_final": 449940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-para-senderismo-peakfreak-ii-outdry-hombre-2100711-48j",
+          "variante": "(ver ficha)",
+          "precio": 479940,
+          "moneda": "COP",
+          "precio_final": 479940,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/140170197/Tenis-Hombre-Columbia-Peakfreak-II-Outdry-Negro-COLUMBIA",
+          "variante": "Negro",
+          "precio": 449940,
+          "moneda": "COP",
+          "precio_final": 449940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Peakfreak%20II%20Outdry",
+          "variante": "Negro",
+          "precio": 282536.63,
+          "moneda": "COP",
+          "precio_final": 291013,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Peakfreak%20II%20Outdry",
+          "variante": "Everblue / Super Sonic (azul)",
+          "precio": 302555.38,
+          "moneda": "COP",
+          "precio_final": 311632,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "columbia-hatana-max-outdry",
+      "marca": "Columbia",
+      "modelo": "Hatana Max Outdry",
+      "variante": "Negro con suela azul turquesa",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": 396,
+        "drop_mm": null,
+        "suela": "Adapt Trax",
+        "amortiguacion": "Techlite+",
+        "fuentes": [
+          "https://www.columbia.com/p/mens-hatana-max-outdry-shoe-%7C-010-%7C-14-194894817858.html",
+          "https://www.columbia.com/p/mens-hatana-max-outdry-shoe-1982281.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": null,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Outdry con suela de alto agarre (Adapt Trax)",
+        "Acolchado Techlite+ de espuma gruesa"
+      ],
+      "contras": [
+        "Suela azul turquesa vivo: color en revisión",
+        "Costura de talón que roza en algunas reseñas (Zappos)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-para-senderismo-hatana-max-outdry-hombre-2107661-in9",
+          "variante": "Negro con suela azul turquesa",
+          "precio": 407940,
+          "moneda": "COP",
+          "precio_final": 407940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "columbia-facet-75-outdry",
+      "marca": "Columbia",
+      "modelo": "Facet 75 Outdry",
+      "variante": "Piedra oscura/Negra (beige con negro)",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": 417,
+        "drop_mm": null,
+        "suela": "Adapt Trax",
+        "amortiguacion": "Techlite PLUSH (acolchada)",
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-shoes-men/columbia-facet-75-outdry"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-shoes-men/columbia-facet-75-outdry"
+        ]
+      },
+      "beneficios": [
+        "Outdry y mediasuela Techlite PLUSH muy acolchada",
+        "Liviano para ser impermeable (~417 g)"
+      ],
+      "contras": [
+        "Cordones rojo vivo: color en revisión"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-de-senderismo-facet-75-outdry-para-hombre-2027091-xp9",
+          "variante": "Negro/gris con cordones rojo vivo",
+          "precio": 473940,
+          "moneda": "COP",
+          "precio_final": 473940,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Facet%2075%20Outdry",
+          "variante": "Piedra oscura/Negra (beige con negro)",
+          "precio": 359088.33,
+          "moneda": "COP",
+          "precio_final": 369861,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "columbia-crestwood-wp",
+      "marca": "Columbia",
+      "modelo": "Crestwood Waterproof",
+      "variante": "Barro / calabaza (café-naranja)",
+      "imagen": "img/trail-cafe.svg",
+      "ficha": {
+        "membrana": "Omni-Tech",
+        "membrana_verificada": true,
+        "peso_g": 360,
+        "drop_mm": 13.7,
+        "suela": "Caucho Omni-Grip con tacos",
+        "amortiguacion": "Techlite",
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-shoes-men/columbia-crestwood",
+          "https://www.columbia.com/p/mens-crestwood-waterproof-hiking-shoe-2100651.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/columbia-crestwood",
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-shoes-men/columbia-crestwood"
+        ]
+      },
+      "beneficios": [
+        "Impermeable probado, 360 g"
+      ],
+      "contras": [
+        "529.900 COP: dentro del techo pero sin descuento",
+        "Costuras y malla expuestas se desgastan primero",
+        "Sensación algo torpe (OutdoorGearLab)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-impermeable-de-senderismo-columbia-para-hombre-crestwood-2100651-gp8",
+          "variante": "Gris oscuro con naranja",
+          "precio": 529900,
+          "moneda": "COP",
+          "precio_final": 529900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-impermeable-de-senderismo-columbia-para-hombre-crestwood-2100651-md3",
+          "variante": "Café",
+          "precio": 529900,
+          "moneda": "COP",
+          "precio_final": 529900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/140155008/tenis-hombre-columbia-crestwood-waterproof-gris-columbia",
+          "variante": "Gris",
+          "precio": 529900,
+          "moneda": "COP",
+          "precio_final": 529900,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Crestwood%20Waterproof",
+          "variante": "Barro / calabaza (café-naranja)",
+          "precio": 288270,
+          "moneda": "COP",
+          "precio_final": 296918,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "merrell-moab-speed-2-gtx",
+      "marca": "Merrell",
+      "modelo": "Moab Speed 2 GTX",
+      "variante": "Asfalto (gris)",
+      "imagen": "img/trail-gris.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 350,
+        "drop_mm": 10,
+        "suela": "Vibram TC5+ (compuesto exclusivo Merrell), tacos de 4 mm, placa de roca",
+        "amortiguacion": "Media-firme (stack talón declarado 34 mm, medido 38,8 mm)",
+        "fuentes": [
+          "https://www.roadtrailrun.com/2025/12/merrell-moab-speed-2-gore-tex-review.html",
+          "https://www.merrell.com.co/products/tenis-hike-moab-speed-2-gtx-hombre-j038325-21s"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 3,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex + Vibram TC5+ con tacos de 4 mm: agarre alto en mojado",
+        "Placa de roca y 350 g"
+      ],
+      "contras": [
+        "Rígido al inicio y cálido (Gore-Tex)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-hike-moab-speed-2-gtx-hombre-j038325-21s",
+          "variante": "Café/gris con detalles lima",
+          "precio": 384950,
+          "moneda": "COP",
+          "precio_final": 384950,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-para-hike-moab-speed-2-gtx-hombre-j037517-8oe",
+          "variante": "(ver ficha)",
+          "precio": 384950,
+          "moneda": "COP",
+          "precio_final": 384950,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Moab%20Speed%202%20GTX",
+          "variante": "Asfalto (gris)",
+          "precio": 493133.88,
+          "moneda": "COP",
+          "precio_final": 507927,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Moab%20Speed%202%20GTX",
+          "variante": null,
+          "precio": 318696,
+          "moneda": "COP",
+          "precio_final": 411150,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "merrell-speedarc-matis-gtx",
+      "marca": "Merrell",
+      "modelo": "SpeedARC Matis GTX",
+      "variante": "Gris azulado/violeta con suela beige",
+      "imagen": "img/trail-azul.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 352,
+        "drop_mm": 13.9,
+        "suela": "Goma Merrell de alto rendimiento (la versión gris sin GTX usa Vibram Megagrip, tacos 3 mm), FlexPlate, entresuela FloatPro",
+        "amortiguacion": "Alta (stack medido 42,6 mm talón / 28,7 mm delantero)",
+        "fuentes": [
+          "https://www.runrepeat.com/merrell-speed-arc-matis",
+          "https://www.merrell.com.co/products/tenis-hike-speedarc-matis-gtx-hombre-j00005075-9ug"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 2,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Amortiguación alta y FlexPlate (rigidez torsional)",
+        "RunRepeat: puntaje urbano 90"
+      ],
+      "contras": [
+        "Color gris-azulado/violeta: en revisión"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-hike-speedarc-matis-gtx-hombre-j00005075-9ug",
+          "variante": "Gris azulado/violeta con suela beige",
+          "precio": 499950,
+          "moneda": "COP",
+          "precio_final": 499950,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 5
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "merrell-cham-redux-storm-gtx",
+      "marca": "Merrell",
+      "modelo": "Cham Redux Storm GTX",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 405,
+        "drop_mm": null,
+        "suela": "Goma Merrell",
+        "amortiguacion": "FloatMax (espuma suave)",
+        "fuentes": [
+          "https://merrell.com.ph/products/cham-redux-storm-gore-tex-1trl-black-graphite-men-s-hiking-shoes",
+          "https://www.merrell.com.co/products/zapatilla-aftersport-cham-redux-storm-gtx-unisex-j2007585-aop"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex en estética Chameleon negra, estilo trail-técnico",
+        "Cierre de cordones con palanca, fácil de poner"
+      ],
+      "contras": [
+        "538.930 COP: estirando el tope",
+        "405 g: más pesado",
+        "Sin review independiente: comodidad, estabilidad y agarre sin dato"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/zapatilla-aftersport-cham-redux-storm-gtx-unisex-j2007585-aop",
+          "variante": "Negro",
+          "precio": 538930,
+          "moneda": "COP",
+          "precio_final": 538930,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "hoka-clifton-11-gtx",
+      "marca": "Hoka",
+      "modelo": "Clifton 11 GTX",
+      "variante": "Gris river rock / carbono",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 307,
+        "drop_mm": 8,
+        "suela": "Goma de running (EVA compactada con zonas de caucho); sin tacos",
+        "amortiguacion": "Máxima (EVA moldeada; stack 43,8 / 35,8 mm)",
+        "fuentes": [
+          "https://www.rei.com/product/C06636/hoka-clifton-11-gtx-road-running-shoes-mens"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 2,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rei.com/product/C06636/hoka-clifton-11-gtx-road-running-shoes-mens",
+          "https://runrepeat.com/hoka-clifton-11"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex con la amortiguación máxima de un Clifton",
+        "Liviano (307 g) con 8 mm de drop"
+      ],
+      "contras": [
+        "Suela de running sin tacos: agarre en piso mojado incierto",
+        "545.632 COP: en el límite del techo"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/hoka-clifton-11-gtx-sneaker-in-river-rock-grey-carbon-black/dp/HOKF-MZ203/",
+          "variante": "Gris river rock / carbono",
+          "precio": 545632,
+          "moneda": "COP",
+          "precio_final": 545632,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/hoka-clifton-11-gtx-sneaker-in-varsity-burgundy-carbon-black/dp/HOKF-MZ204/",
+          "variante": "Burdeos oscuro / carbono",
+          "precio": 545632,
+          "moneda": "COP",
+          "precio_final": 545632,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 5
+      }
+    },
+    {
+      "id": "on-cloud-6-geo-wp",
+      "marca": "On",
+      "modelo": "Cloud 6 Geo WP",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Upper impermeable multicapa",
+        "membrana_verificada": true,
+        "peso_g": 329,
+        "drop_mm": 8,
+        "suela": "Missiongrip (caucho de tacos) + CloudTec",
+        "amortiguacion": "Media (CloudTec)",
+        "fuentes": [
+          "https://www.on.com/en-us/products/cloud-6-geo-wp-m-3mg1042/mens"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/on-cloud-6-waterproof"
+        ]
+      },
+      "beneficios": [
+        "Upper impermeable con silueta de tenis urbano",
+        "Missiongrip: suela de caucho con tacos",
+        "329 g y 8 mm de drop"
+      ],
+      "contras": [
+        "Menos amortiguación que un Clifton",
+        "Sin dato de estabilidad"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/on-cloud-6-geo-wp-in-alloy/dp/ONF-MZ601/",
+          "variante": "Alloy (gris)",
+          "precio": 433296,
+          "moneda": "COP",
+          "precio_final": 433296,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/on-cloud-6-geo-wp-in-black/dp/ONF-MZ600/",
+          "variante": "Negro",
+          "precio": 426876.81,
+          "moneda": "COP",
+          "precio_final": 426876.81,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 5
+      }
+    },
+    {
+      "id": "keen-jasper-nylon-wp",
+      "marca": "KEEN",
+      "modelo": "Jasper Nylon WP",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "KEEN.DRY",
+        "membrana_verificada": true,
+        "peso_g": 340,
+        "drop_mm": null,
+        "suela": "Caucho de mayor tracción (ingeniería KEEN), liviano y flexible",
+        "amortiguacion": "Plantilla EVA doble densidad con soporte de arco",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Impermeable con look retro urbano",
+        "Liviano (340 g oficial)"
+      ],
+      "contras": [
+        "Menos amortiguado que un Clifton",
+        "Sin reviews independientes"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/keen-jasper-nylon-wp-in-black-black/dp/KEER-MZ18/",
+          "variante": "Negro",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/keen-jasper-nylon-wp-in-canteen-canteen/dp/KEER-MZ19/",
+          "variante": "Canteen (oliva/café)",
+          "precio": 449344,
+          "moneda": "COP",
+          "precio_final": 449344,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "keen-targhee-iv-wp",
+      "marca": "KEEN",
+      "modelo": "Targhee IV WP",
+      "variante": "Bison/negro (café)",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "KEEN.DRY",
+        "membrana_verificada": true,
+        "peso_g": 545,
+        "drop_mm": 12,
+        "suela": "KEEN.RUGGED (caucho resistente a la abrasión)",
+        "amortiguacion": "Firme (stack talón 28 mm)",
+        "fuentes": [
+          "https://www.rei.com/product/229856"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-shoes-men/keen-targhee-iv-low"
+        ]
+      },
+      "beneficios": [
+        "Estabilidad alta: stack bajo y estructura de senderismo",
+        "Impermeable robusto y puntera amplia",
+        "Entra bajo el techo (545.632 COP)"
+      ],
+      "contras": [
+        "Pesado (≈545 g) y suela rígida",
+        "Estética de senderismo, menos urbano"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/keen-targhee-iv-wpm-in-bison-black/dp/KEER-MZ6/",
+          "variante": "Bison/negro (café)",
+          "precio": 545632,
+          "moneda": "COP",
+          "precio_final": 545632,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 2
+      }
+    },
+    {
+      "id": "the-north-face-hedgehog-gtx",
+      "marca": "The North Face",
+      "modelo": "Hedgehog GTX",
+      "variante": "Negro / gris oscuro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 389,
+        "drop_mm": null,
+        "suela": "Vibram XS Trek",
+        "amortiguacion": "EVA con soporte medio (shank) y refuerzo de puntera",
+        "fuentes": [
+          "https://www.cotswoldoutdoor.com/p/the-north-face-mens-hedgehog-gtx-hiking-shoes-B22AAA0174.html"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex con suela Vibram XS Trek",
+        "Negro/gris oscuro, estética trail-técnica"
+      ],
+      "contras": [
+        "Sin reviews del modelo exacto"
+      ],
+      "estado": "candidato",
+      "ofertas": [],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "the-north-face-offtrail-tr-gtx",
+      "marca": "The North Face",
+      "modelo": "Offtrail TR GTX",
+      "variante": "Verde taupe / gris asfalto",
+      "imagen": "img/trail-oliva.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": 6,
+        "suela": "Surface CTRL, tacos de 5 mm",
+        "amortiguacion": "EVA reactiva, drop 6 mm",
+        "fuentes": [
+          "https://www.roadtrailrun.com/2024/10/the-north-face-summit-series-offtrail.html",
+          "https://www.snowleader.com/en/offtrail-tr-gore-tex-m-black-black-THEN04911.html"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rei.com/product/236493/the-north-face-offtrail-tr-gore-tex-hiking-shoes-mens"
+        ]
+      },
+      "beneficios": [
+        "Drop bajo (6 mm) y tacos de 5 mm",
+        "Estilo trail-técnico en verde taupe/gris"
+      ],
+      "contras": [
+        "Sin peso ni reviews del modelo exacto",
+        "Tacos de 5 mm: más agresivo para ciudad"
+      ],
+      "estado": "candidato",
+      "ofertas": [],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "salomon-xt-pathway-gtx",
+      "marca": "Salomon",
+      "modelo": "XT-Pathway GTX",
+      "variante": "Negro/plata",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Contagrip de tacos gruesos (según retailers)",
+        "amortiguacion": "Quicklace + SensiFit; mudguard",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Quicklace (cordón rápido)",
+        "Negro/plata, estética trail-técnica"
+      ],
+      "contras": [
+        "Peso y drop de la GTX sin dato"
+      ],
+      "estado": "candidato",
+      "ofertas": [],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "salomon-xt-6-gtx",
+      "marca": "Salomon",
+      "modelo": "XT-6 GTX",
+      "variante": "Negro/asfalto",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 357,
+        "drop_mm": 10,
+        "suela": "Contagrip All Terrain / Mud, tacos profundos",
+        "amortiguacion": "Stack 32 mm talón / 22 mm delantero (declarado)",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": 4,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex + Contagrip de alto agarre en la silueta XT",
+        "Estética trail-técnica negra",
+        "Stack declarado moderado (32 mm)"
+      ],
+      "contras": [
+        "641.920 COP en Revolve: 90.000 sobre el techo"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xt6-goretex-sneakers-in-black-black-asphalt/dp/SMOF-MZ270/",
+          "variante": "Negro/asfalto",
+          "precio": 641920,
+          "moneda": "COP",
+          "precio_final": 641920,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xt6-gtx-in-black-silver/dp/SMOF-MZ142/",
+          "variante": "Negro/plata",
+          "precio": 641920,
+          "moneda": "COP",
+          "precio_final": 641920,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "new-balance-evoz-v4-gtx",
+      "marca": "New Balance",
+      "modelo": "Fresh Foam X Evoz v4 GTX",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": 4,
+        "suela": "Caucho de running Fresh Foam X",
+        "amortiguacion": "Fresh Foam X, plush",
+        "fuentes": [
+          "https://www.runrepeat.com/new-balance-fresh-foam-x-evoz-v-4"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex en un tenis de running Fresh Foam X",
+        "515.165 COP: dentro del techo",
+        "Negro"
+      ],
+      "contras": [
+        "Tracción floja en mojado (RunRepeat, versión sin GTX)",
+        "Sin reviews de la GTX"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "falabella.com.co",
+          "pais": "CO",
+          "url": "https://www.falabella.com.co/falabella-co/product/150315227/new-balance-evoz-v4-gtx-tenis-negro-de-hombre-para-correr",
+          "variante": "Negro",
+          "precio": 515165,
+          "moneda": "COP",
+          "precio_final": 515165,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "script (__NEXT_DATA__)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "skechers-adventure-waterproof",
+      "marca": "Skechers",
+      "modelo": "Adventure Waterproof",
+      "variante": null,
+      "imagen": "img/trail-gris.svg",
+      "ficha": {
+        "membrana": "Waterproof",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": "Memory foam",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Memory foam (por confirmar)"
+      ],
+      "contras": [
+        "Verificar que la suela tenga tacos de caucho"
+      ],
+      "estado": "candidato",
+      "ofertas": []
+    },
+    {
+      "id": "quechua-nh500-wp",
+      "marca": "Quechua",
+      "modelo": "NH500 WP",
+      "variante": "Negro ahumado",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Membrana impermeable Quechua",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Certificación OUTDOOR CONTACT (agarre en superficies lisas)",
+        "amortiguacion": "Entresuela EVA blanda y ligera",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": null,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Certificación OUTDOOR CONTACT, 4,5/5 en 263 opiniones"
+      ],
+      "contras": [
+        "Protección de lluvia ligera: 3 h (no es Gore-Tex)",
+        "Últimas unidades",
+        "Estilo casual básico"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "decathlon.com.co",
+          "pais": "CO",
+          "url": "https://www.decathlon.com.co/p/361242-115357-tenis-de-senderismo-impermeables-hombre-nh500-cana-baja-wp-negro-ahumado.html",
+          "variante": "Negro ahumado",
+          "precio": 360000,
+          "moneda": "COP",
+          "precio_final": 360000,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "quechua-mh500-light-wp",
+      "marca": "Quechua",
+      "modelo": "MH500 Light WP",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Membrana impermeable + cuello sin costuras",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "OUTDOOR CONTACT ultra-adherente, tacos de 5 mm",
+        "amortiguacion": "EVA gruesa",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": null,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Tacos de 5 mm y suela OUTDOOR CONTACT"
+      ],
+      "contras": [
+        "Más de montaña que casual",
+        "Posible caña alta (cuello): confirmar corte",
+        "Sin peso ni drop publicado"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "decathlon.com.co",
+          "pais": "CO",
+          "url": "https://www.decathlon.com.co/p/348701-114115-tenis-impermeables-de-senderismo-hombre-mh500-light-negro.html",
+          "variante": "Negro",
+          "precio": 475000,
+          "moneda": "COP",
+          "precio_final": 475000,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 2
+      }
+    },
+    {
+      "id": "quechua-nh100-wp",
+      "marca": "Quechua",
+      "modelo": "NH100 WP",
+      "variante": "Gris",
+      "imagen": "img/trail-gris.svg",
+      "ficha": {
+        "membrana": "Membrana impermeable interior",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Certificación OUTDOOR CONTACT",
+        "amortiguacion": "Entresuela EVA flexible",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": null,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "4,6/5 en 2.824 opiniones"
+      ],
+      "contras": [
+        "Solo 2 h de protección bajo lluvia",
+        "Básico en estilo y amortiguación",
+        "Sin peso ni drop"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "decathlon.com.co",
+          "pais": "CO",
+          "url": "https://www.decathlon.com.co/p/352773-92873-zapatos-impermeables-de-senderismo-cana-baja-para-hombre-quechua-nh100-gris.html",
+          "variante": "Gris",
+          "precio": 236000,
+          "moneda": "COP",
+          "precio_final": 236000,
+          "disponible": false,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 2
+      }
+    },
+    {
+      "id": "merrell-morphlite-reflective-gtx",
+      "marca": "Merrell",
+      "modelo": "Morphlite Reflective GTX",
+      "variante": "Negro reflectante (GTX)",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 255,
+        "drop_mm": 6.5,
+        "suela": "Caucho propio de Merrell (no Vibram), tacos de 2 mm al centro y 3 mm en el perímetro",
+        "amortiguacion": "Espuma ligera tipo carretera-sendero; stack del fabricante 26,5/20 mm, RunRepeat midió 32,3/21,3 mm (drop real ~11 mm). Peso 8,99 oz (255 g) la versión GTX",
+        "fuentes": [
+          "https://www.merrell.com.co/products/tenis-para-trail-morphlite-reflective-hombre-j068209-n11"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://doctorsofrunning.com/2024/10/merrell-morphlite-review-2024-major.html",
+          "https://www.rei.com/product/247834/merrell-morphlite-road-running-shoes-mens"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "Tacos cortos y caucho genérico: agarre medio en piedra mojada lisa",
+        "Menos amortiguado que un Clifton o Novablast"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "merrell.com.co",
+          "pais": "CO",
+          "url": "https://www.merrell.com.co/products/tenis-para-trail-morphlite-reflective-hombre-j068209-n11",
+          "variante": "Negro reflectante (GTX)",
+          "precio": 369950,
+          "moneda": "COP",
+          "precio_final": 369950,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "script (Shopify)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "salomon-xa-pro-3d-v9-gtx",
+      "marca": "Salomon",
+      "modelo": "XA Pro 3D V9 GTX",
+      "variante": "Black / Silver (GTX, impermeable)",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 359,
+        "drop_mm": 13.5,
+        "suela": "Contagrip de caucho, segmentada, tacos de 2,8 mm (RunRepeat)",
+        "amortiguacion": "Firme y protectora, chasis 3D; stack medido 33,5 mm talón / 20 mm antepié (oficial: drop 11 mm)",
+        "fuentes": [
+          "https://runrepeat.com/salomon-xa-pro-3d-v9-gtx"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/salomon-xa-pro-3d-v9-gtx",
+          "https://ridgeandriver.com/blogs/gear-selection/salomon-xa-pro-3d-v9-gtx-review-a-durable-multi-purpose-trail-shoe"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex de verdad con look trail-técnico negro",
+        "Hecho para todo tiempo; durable"
+      ],
+      "contras": [
+        "Agarre en mojado medido bajo en RunRepeat (0,25 vs 0,64)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "revolveclothing.es",
+          "pais": "US",
+          "url": "https://www.revolveclothing.es/salomon-xa-pro-3d-gtx-in-black-silver/dp/SMOF-MZ258/",
+          "variante": "Black / Silver (GTX, impermeable)",
+          "precio": 513536,
+          "moneda": "COP",
+          "precio_final": 513536,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "adidas-terrex-tracefinder-2-climaproof",
+      "marca": "adidas Terrex",
+      "modelo": "Tracefinder 2 CLIMAPROOF",
+      "variante": "Marrón",
+      "imagen": "img/trail-cafe.svg",
+      "ficha": {
+        "membrana": "CLIMAPROOF",
+        "membrana_verificada": true,
+        "peso_g": 312,
+        "drop_mm": 10,
+        "suela": "Caucho Traxion con tacos para trail",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.adidas.fi/terrex-tracefinder-2-climaproof-trail-running-shoes/JR9140.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.adidas.fi/terrex-tracefinder-2-climaproof-trail-running-shoes/JR9140.html"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "CLIMAPROOF no es Gore-Tex: opiniones mixtas sobre estanqueidad total",
+        "Sin reseña independiente de comodidad ni de agarre en mojado"
+      ],
+      "estado": "candidato",
+      "ofertas": [],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "new-balance-hierro-v9-gtx",
+      "marca": "New Balance",
+      "modelo": "Fresh Foam X Hierro v9 GTX",
+      "variante": "Verde mosaico / permafrost / negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 292,
+        "drop_mm": 4,
+        "suela": "Vibram Megagrip, tacos de 6 mm",
+        "amortiguacion": "Fresh Foam X de doble densidad, stack 42/38 mm. Peso de la versión sin GTX (REI ~292 g); el GTX pesa algo más",
+        "fuentes": [
+          "https://www.rei.com/product/243742/new-balance-fresh-foam-x-hierro-v9-trail-running-shoes-mens"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 3,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.runrepeat.com/new-balance-fresh-foam-x-hierro-v9",
+          "https://www.rei.com/product/243742/new-balance-fresh-foam-x-hierro-v9-trail-running-shoes-mens",
+          "https://www.roadtrailrun.com/2025/01/new-balance-fresh-foam-x-hierro-v9.html?m=1"
+        ]
+      },
+      "beneficios": [
+        "Vibram Megagrip: el mejor agarre en piedra mojada",
+        "Amortiguación máxima",
+        "Gore-Tex con look trail negro"
+      ],
+      "contras": [],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%20Hierro%20v9%20GTX",
+          "variante": "Verde mosaico / permafrost / negro",
+          "precio": 517764.95,
+          "moneda": "COP",
+          "precio_final": 533298,
+          "disponible": true,
+          "verificado": "2026-10-12",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "the-north-face-glenclyffe-gtx",
+      "marca": "The North Face",
+      "modelo": "Glenclyffe Low GORE-TEX",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Vibram XS Trek, tacos de 4 mm (Bstn)",
+        "amortiguacion": "Bootie Gore-Tex de 3 capas; drop y stack no publicados",
+        "fuentes": [
+          "https://www.bstn.com/uk_en/p/the-north-face-glenclyffe-low-gore-tex-nf0a8d95c4f1-0333800"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.thenorthface.com/en-dk/p/shoes-747784/glenclyffe-low-gore-tex-shoes-NF0A8D95?color=Q41",
+          "https://www.backcountry.com/the-north-face-glenclyffe-low-shoe"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex con suela Vibram XS Trek",
+        "Negro discreto, sirve para ciudad"
+      ],
+      "contras": [
+        "Poca información independiente"
+      ],
+      "estado": "candidato",
+      "ofertas": [],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "columbia-peakfreak-3-outdry",
+      "marca": "Columbia",
+      "modelo": "Peakfreak 3 Outdry",
+      "variante": "Negro/Gris oscuro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Adapt Trax con tacos de 4 mm",
+        "amortiguacion": "Techlite+ con plantilla Techlite Eco; Geo-Cage de soporte",
+        "fuentes": []
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.bergzeit.de/p/columbia-herren-peakfreak-3-mid-outdry-schuhe/3016458/",
+          "https://www.active-traveller.com/gear-reviews/footwear/columbia-peakfreak-trail-shoes"
+        ]
+      },
+      "beneficios": [
+        "Outdry (membrana por fuera: el zapato no se empapa) en negro/gris oscuro"
+      ],
+      "contras": [
+        "Sin peso ni drop publicados; sin reseñas independientes",
+        "Los cordones no son impermeables (nota de Columbia)"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Peakfreak%203%20Outdry",
+          "variante": "Negro/Gris oscuro",
+          "precio": 416390,
+          "moneda": "COP",
+          "precio_final": 428882,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      }
+    },
+    {
+      "id": "columbia-konos-trs-outdry",
+      "marca": "Columbia",
+      "modelo": "Konos TRS Outdry",
+      "variante": "Negro (Black/Grill)",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Adapt Trax (tracción en seco y mojado)",
+        "amortiguacion": "Techlite+ (Omni-Max Plus) con almohadillas de desviación en talón y antepié",
+        "fuentes": [
+          "https://www.columbia.com.co/products/tenis-konos-trs-hombre-2079321-6rx"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://advnture.com/reviews/columbia-konos-trs-outdry-mid-hiking-shoe",
+          "https://www.countryfile.com/reviews/columbia-konos-trs-outdry-mid-hiking-mens-shoe",
+          "https://t3.com/active/hiking-walking/columbia-konos-trs-outdry-hiking-shoe-review"
+        ]
+      },
+      "beneficios": [
+        "Outdry con look de tenis de senderismo rápido y ligero"
+      ],
+      "contras": [
+        "Sin peso comparable ni drop publicados; sin reseñas independientes"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Konos%20TRS%20Outdry",
+          "variante": "Negro (Black/Grill)",
+          "precio": 341439.8,
+          "moneda": "COP",
+          "precio_final": 351683,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "columbia.com.co",
+          "pais": "CO",
+          "url": "https://www.columbia.com.co/products/tenis-konos-trs-hombre-2079321-6rx",
+          "variante": "Gris con detalles rojos",
+          "precio": 467940,
+          "moneda": "COP",
+          "precio_final": 467940,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "script (Shopify)"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "columbia-peakfreak-rush-outdry",
+      "marca": "Columbia",
+      "modelo": "Peakfreak Rush Outdry",
+      "variante": "Abeto azul/caramelo",
+      "imagen": "img/trail-cafe.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": 365,
+        "drop_mm": null,
+        "suela": "Adapt Trax con tacos de 4 mm",
+        "amortiguacion": "Techlite+ (EVA) con sistema de cordón Navic Fit",
+        "fuentes": [
+          "https://www.columbia.com/p/mens-peakfreak-rush-outdry-shoe-%7C-091-%7C-9-195982539874.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rei.com/product/C13648/columbia-peakfreak-rush-outdry-hiking-shoes-womens"
+        ]
+      },
+      "beneficios": [
+        "Outdry y 365 g por zapato: liviano, perfil bajo tipo trail-runner",
+        "Negro con detalle miel discreto; suela Adapt Trax y Techlite+ de la gama media de Columbia"
+      ],
+      "contras": [
+        "Sin drop ni stack publicados y sin pruebas independientes de agarre en mojado"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Peakfreak%20Rush%20Outdry",
+          "variante": "Negro / miel cruda (Black/Raw Honey)",
+          "precio": 291440.97,
+          "moneda": "COP",
+          "precio_final": 300184,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Peakfreak%20Rush%20Outdry",
+          "variante": "Abeto azul/caramelo",
+          "precio": 290126,
+          "moneda": "COP",
+          "precio_final": 298830,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 4
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "adidas-terrex-skychaser-ax5-gtx",
+      "marca": "adidas Terrex",
+      "modelo": "Skychaser AX5 GORE-TEX",
+      "variante": "Cartón / Blanco cargo / Naranja (Cardboard/Cargo White/Semi Impact Orange)",
+      "imagen": "img/trail-cafe.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 431,
+        "drop_mm": 12,
+        "suela": "Caucho Continental",
+        "amortiguacion": "Mediasuela LIGHTMOTION EVA, plantilla OrthoLite",
+        "fuentes": [
+          "https://www.rei.com/product/249869",
+          "https://www.adidas.co.nz/terrex-skychaser-ax5-gore-tex-hiking-shoes/KJ8940.html"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 4,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://hikingfeet.com/adidas-terrex-skychaser-ax5-gore-tex-hiking-shoes-review/",
+          "https://www.adidas.com.sg/terrex-skychaser-ax5-gore-tex-hiking-shoes/JH7806.html",
+          "https://www.advnture.com/hiking/shoes/adidas-terrex-drops-the-technical-new-skychaser-ax5-waterproof-hiking-shoe-and-its-usd40-cheaper-than-the-original"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex real en un Terrex bajo",
+        "Caucho Continental con buen nombre en piso mojado (sin prueba independiente leída)"
+      ],
+      "contras": [
+        "Color cartón/naranja en revisión; versiones negras/grises no enviables hoy",
+        "Vendedor tercero de nombre dudoso en Amazon"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=adidas%20Terrex%20Skychaser%20AX5%20GORE-TEX",
+          "variante": "Cartón / Blanco cargo / Naranja (Cardboard/Cargo White/Semi Impact Orange)",
+          "precio": 352297.97,
+          "moneda": "COP",
+          "precio_final": 362867,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=adidas%20Terrex%20Skychaser%20AX5%20GORE-TEX",
+          "variante": "Oliva sombra / carbono / bronce (Shadow Olive/Carbon/Bronze Strata)",
+          "precio": 382467,
+          "moneda": "COP",
+          "precio_final": 393941,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "columbia-fairbanks-rover-chelsea",
+      "marca": "Columbia",
+      "modelo": "Fairbanks Rover Chelsea",
+      "variante": "Grafito/Negro",
+      "imagen": "img/bota-negro.svg",
+      "ficha": {
+        "membrana": "Sin membrana",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Columbia%20Fairbanks%20Rover%20Chelsea"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [],
+      "contras": [
+        "Sin ficha oficial leída: membrana, peso y suela sin verificar"
+      ],
+      "estado": "descartado",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Fairbanks%20Rover%20Chelsea",
+          "variante": "Grafito/Negro",
+          "precio": 226802,
+          "moneda": "COP",
+          "precio_final": 233606,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "motivo": "Bota de caña alta: no cumple el criterio de calzado bajo."
+    },
+    {
+      "id": "keen-zionic-speed-wp",
+      "marca": "KEEN",
+      "modelo": "Zionic Speed WP",
+      "variante": "Vapor/aleación",
+      "imagen": "img/trail-gris.svg",
+      "ficha": {
+        "membrana": "WP",
+        "membrana_verificada": false,
+        "peso_g": 358,
+        "drop_mm": null,
+        "suela": "Caucho propio blando de KEEN con tacos horizontales de 4 mm",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=KEEN%20Zionic%20Speed%20WP"
+        ]
+      },
+      "notas": {
+        "comodidad": 3,
+        "estabilidad": 2,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-shoes-men/keen-zionic-speed",
+          "https://www.thisexpansiveadventure.com/blog/hiking/best-hiking-shoes/keen-zionic-speed/",
+          "https://www.thegreatoutdoorsmag.com/review/keen-zionic-wp-shoes-review/"
+        ]
+      },
+      "beneficios": [],
+      "contras": [
+        "Membrana y peso sin verificar en ficha oficial"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=KEEN%20Zionic%20Speed%20WP",
+          "variante": "Vapor/aleación",
+          "precio": 305336,
+          "moneda": "COP",
+          "precio_final": 314496,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "merrell-tempo-exp-mid-wp",
+      "marca": "Merrell",
+      "modelo": "Tempo EXP Mid WP",
+      "variante": "Carbón",
+      "imagen": "img/bota-negro.svg",
+      "ficha": {
+        "membrana": "WP",
+        "membrana_verificada": false,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Merrell%20Tempo%20EXP%20Mid%20WP"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [],
+      "contras": [
+        "Caña media: Amazon la clasifica como bota de senderismo",
+        "Vendedor tercero (eComical)"
+      ],
+      "estado": "descartado",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Tempo%20EXP%20Mid%20WP",
+          "variante": "Carbón",
+          "precio": 318791,
+          "moneda": "COP",
+          "precio_final": 328355,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "motivo": "Bota de caña alta: no cumple el criterio de calzado bajo."
+    },
+    {
+      "id": "salomon-alphacross-5-gtx",
+      "marca": "Salomon",
+      "modelo": "Alphacross 5 GTX",
+      "variante": "Noche de oliva/negro/verde liquen",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 294,
+        "drop_mm": 11,
+        "suela": "Mud Contagrip, tacos chevron de 6,5 mm; entresuela Fuze Foam EVA",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Salomon%20Alphacross%205%20GTX"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.sneakerlens.com/salomon-alphacross-5-review/",
+          "https://www.salomon.com/en-us/shop/product/alphacross-5-gore-tex-li4450.html",
+          "https://salomonsports.co.za/products/salomon-alphacross-5-trail-running-shoe",
+          "https://www.comparesalomon.com/shoes/alphacross-5-gtx-m/"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex"
+      ],
+      "contras": [
+        "Vendedor tercero (Boavista Sales)",
+        "Peso, drop y suela sin verificar"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Salomon%20Alphacross%205%20GTX",
+          "variante": "Noche de oliva/negro/verde liquen",
+          "precio": 475094,
+          "moneda": "COP",
+          "precio_final": 489347,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 2
+      }
+    },
+    {
+      "id": "columbia-tellurix-titanium-outdry",
+      "marca": "Columbia",
+      "modelo": "Tellurix Titanium Outdry",
+      "variante": "Negro/Azul Montaña",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Outdry",
+        "membrana_verificada": true,
+        "peso_g": 369,
+        "drop_mm": null,
+        "suela": "Vibram Megagrip, tacos multidireccionales de 4,5 mm; entresuela Techlite+ (Omni-Max Plus)",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Columbia%20Tellurix%20Titanium%20Outdry"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.columbia.com/p/mens-tellurix-titanium-outdry-shoe-2148851.html",
+          "https://www.tomsguide.com/wellness/fitness/columbia-tellurix-titanium-outdry-hiking-shoes-review",
+          "https://www.rei.com/product/C06286/columbia-tellurix-titanium-outdry-hiking-shoes-mens"
+        ]
+      },
+      "beneficios": [
+        "Outdry (membrana por fuera)",
+        "Colores neutros (gris nube/carbón) además del negro/azul"
+      ],
+      "contras": [
+        "El negro/azul montaña lleva azul: cola de revisión de color",
+        "Sin ficha oficial, peso ni reseña leída"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Tellurix%20Titanium%20Outdry",
+          "variante": "Negro/Azul Montaña",
+          "precio": 365535,
+          "moneda": "COP",
+          "precio_final": 376501,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Tellurix%20Titanium%20Outdry",
+          "variante": "Gris nube/carbón",
+          "precio": 367767,
+          "moneda": "COP",
+          "precio_final": 378800,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Columbia%20Tellurix%20Titanium%20Outdry",
+          "variante": null,
+          "precio": 488582,
+          "moneda": "COP",
+          "precio_final": 503239,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      },
+      "alerta": "Color en revisión: confirma el tono antes de comprar."
+    },
+    {
+      "id": "brooks-cascadia-19-gtx",
+      "marca": "Brooks",
+      "modelo": "Cascadia 19 GTX",
+      "variante": "Negro/Ébano/Gris Chateau",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 318,
+        "drop_mm": 6,
+        "suela": "TrailTack Green (Brooks), entresuela DNA Loft v3 con placa flexible Trail Adapt",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Brooks%20Cascadia%2019%20GTX"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://believeintherun.com/shoe-reviews/brooks-cascadia-19-review/",
+          "https://www.livefortheoutdoors.com/trail-running/shoes/brooks-cascadia-19-gtx-review/",
+          "https://www.irunfar.com/brooks-cascadia-19-review",
+          "https://www.rei.com/product/249689/brooks-cascadia-19-gtx-trail-running-shoes-mens"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex",
+        "Trail running de montaña, negro"
+      ],
+      "contras": [
+        "Vendedor tercero (Lucky Soles)",
+        "Peso, drop y suela sin verificar"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019%20GTX",
+          "variante": "Negro/Ébano/Gris Chateau",
+          "precio": 414352,
+          "moneda": "COP",
+          "precio_final": 426783,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 2
+      }
+    },
+    {
+      "id": "brooks-ghost-18-gtx",
+      "marca": "Brooks",
+      "modelo": "Ghost 18 GTX",
+      "variante": "Negro/Negro/Ébano",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 318,
+        "drop_mm": 10,
+        "suela": "Goma Brooks de cobertura amplia, diseño heredado sin cambios del Ghost 17 (RoadTack); entresuela DNA Loft v3",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Brooks%20Ghost%2018%20GTX"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 4,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/brooks-ghost-18",
+          "https://slrc.com/brooks-ghost-18-gtx-mens/",
+          "https://www.rei.com/product/C06658/brooks-ghost-18-gtx-road-running-shoes-womens",
+          "https://www.doctorsofrunning.com/brooks-ghost-18-review-2026/",
+          "https://believeintherun.com/shoe-reviews/brooks-ghost-18-review/"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex",
+        "Zapatilla de running neutra, negra, muy cómoda para caminar según su línea Ghost"
+      ],
+      "contras": [
+        "~591.000 con tarjeta: sobre el techo de 550.000",
+        "Casi todos vendedores terceros",
+        "Sin ficha oficial ni reseña leída; suela de calle, no de trail"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Brooks%20Ghost%2018%20GTX",
+          "variante": "Negro/Negro/Ébano",
+          "precio": 573780,
+          "moneda": "COP",
+          "precio_final": 590993,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 5
+      }
+    },
+    {
+      "id": "hoka-speedgoat-6-mid-gtx",
+      "marca": "Hoka",
+      "modelo": "Speedgoat 6 Mid GTX",
+      "variante": "Negro/órbita externa",
+      "imagen": "img/bota-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Hoka%20Speedgoat%206%20Mid%20GTX"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex"
+      ],
+      "contras": [
+        "Vendedor tercero (Voadera)",
+        "Sin ficha oficial ni reseña leída"
+      ],
+      "estado": "descartado",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Hoka%20Speedgoat%206%20Mid%20GTX",
+          "variante": "Negro/órbita externa",
+          "precio": 378895,
+          "moneda": "COP",
+          "precio_final": 390262,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "motivo": "Bota de caña alta: no cumple el criterio de calzado bajo."
+    },
+    {
+      "id": "salomon-x-adventure-recon-gtx",
+      "marca": "Salomon",
+      "modelo": "X-Adventure Recon GTX",
+      "variante": "Asfalto/Castlerock/Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": null,
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Salomon%20X-Adventure%20Recon%20GTX"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Gore-Tex",
+        "Precio mostrado 392.000 a 440.000 sin tarjeta"
+      ],
+      "contras": [
+        "Sin ficha oficial ni reseña leída"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Salomon%20X-Adventure%20Recon%20GTX",
+          "variante": "Asfalto/Castlerock/Negro",
+          "precio": 440116,
+          "moneda": "COP",
+          "precio_final": 453319,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "keen-versacore-wp",
+      "marca": "KEEN",
+      "modelo": "Versacore WP",
+      "variante": "Negro/Magneto",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "WP",
+        "membrana_verificada": true,
+        "peso_g": 397,
+        "drop_mm": null,
+        "suela": "KEEN.ALL-TERRAIN, tacos multidireccionales; entresuela EVA de alto rebote con placa ESS",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=KEEN%20Versacore%20WP"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.base-mag.com/review-mens-keen-versacore-shoe/",
+          "https://www.rei.com/product/247687/keen-versacore-waterproof-hiking-shoes-mens",
+          "https://www.bergfreunde.eu/keen-womens-versacore-wp-multisport-shoes/",
+          "https://www.livefortheoutdoors.com/hiking/walking-boots/keen-versacore-speed-shoe-review/"
+        ]
+      },
+      "beneficios": [
+        "Impermeable, negro"
+      ],
+      "contras": [
+        "Sin ficha oficial, peso ni reseña leída; membrana no especificada"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=KEEN%20Versacore%20WP",
+          "variante": "Negro/Magneto",
+          "precio": 264713,
+          "moneda": "COP",
+          "precio_final": 272655,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "merrell-speed-strike-2-wp",
+      "marca": "Merrell",
+      "modelo": "Speed Strike 2 Impermeable (WP)",
+      "variante": "Hongos",
+      "imagen": "img/trail-gris.svg",
+      "ficha": {
+        "membrana": "Membrana impermeable genérica de Merrell",
+        "membrana_verificada": true,
+        "peso_g": null,
+        "drop_mm": null,
+        "suela": "Goma",
+        "amortiguacion": "Entresuela ligera de espuma EVA",
+        "fuentes": [
+          "https://www.amazon.com/s?k=Merrell%20Speed%20Strike%202%20Impermeable%20(WP)"
+        ]
+      },
+      "notas": {
+        "comodidad": null,
+        "estabilidad": null,
+        "agarre": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Colores neutros (beluga, negro, oliva)"
+      ],
+      "contras": [
+        "No es Gore-Tex"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Speed%20Strike%202%20Impermeable%20(WP)",
+          "variante": "Hongos",
+          "precio": null,
+          "moneda": "COP",
+          "precio_final": null,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ]
+    },
+    {
+      "id": "merrell-nova-4-waterproof",
+      "marca": "Merrell",
+      "modelo": "Nova 4 Waterproof",
+      "variante": "Negro",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Waterproof",
+        "membrana_verificada": true,
+        "peso_g": 280,
+        "drop_mm": 12.1,
+        "suela": "Merrell Quantum Grip, tacos de 4 mm; entresuela FloatPro",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Merrell%20Nova%204%20Waterproof"
+        ]
+      },
+      "notas": {
+        "comodidad": 4,
+        "estabilidad": 3,
+        "agarre": 2,
+        "estilo": null,
+        "fuentes": [
+          "https://www.merrell.com/US/en/nova-4-waterproof/60177M.html",
+          "https://runrepeat.com/merrell-nova-4",
+          "https://believeintherun.com/shoe-reviews/merrell-nova-4-review/",
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-men/merrell-nova-4"
+        ]
+      },
+      "beneficios": [
+        "Impermeable, negro"
+      ],
+      "contras": [
+        "Cerca del techo: ~525.000 con tarjeta",
+        "Todos vendedores terceros (Shoes Best, Summit, Heart & Sole)",
+        "Sin ficha oficial, peso ni reseña leída"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Nova%204%20Waterproof",
+          "variante": "Negro",
+          "precio": 509530,
+          "moneda": "COP",
+          "precio_final": 524816,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        },
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Merrell%20Nova%204%20Waterproof",
+          "variante": null,
+          "precio": 480961,
+          "moneda": "COP",
+          "precio_final": 495390,
+          "disponible": false,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 3
+      }
+    },
+    {
+      "id": "brooks-ghost-17-gtx",
+      "marca": "Brooks",
+      "modelo": "Ghost 17 GTX",
+      "variante": "Negro/Negro/Ébano GTX",
+      "imagen": "img/trail-negro.svg",
+      "ficha": {
+        "membrana": "Gore-Tex",
+        "membrana_verificada": true,
+        "peso_g": 309,
+        "drop_mm": 11,
+        "suela": "RoadTack (goma Brooks, 3,6 mm); entresuela DNA Loft v3",
+        "amortiguacion": null,
+        "fuentes": [
+          "https://www.amazon.com/s?k=Brooks%20Ghost%2017%20GTX"
+        ]
+      },
+      "notas": {
+        "comodidad": 5,
+        "estabilidad": 4,
+        "agarre": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://runrepeat.com/brooks-ghost-17-gtx",
+          "https://www.doctorsofrunning.com/2025/06/brooks-ghost-17-review-2025.html",
+          "https://believeintherun.com/shoe-reviews/brooks-ghost-17-review/",
+          "https://www.outdoorgearlab.com/reviews/shoes-and-boots/running-shoes-men/brooks-ghost-17"
+        ]
+      },
+      "beneficios": [
+        "Gore-Tex",
+        "Running neutro negro de la familia Ghost"
+      ],
+      "contras": [
+        "Vendedor tercero (V Imports)",
+        "Sin ficha oficial ni reseña leída"
+      ],
+      "estado": "candidato",
+      "ofertas": [
+        {
+          "tienda": "amazon.com",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Brooks%20Ghost%2017%20GTX",
+          "variante": "Negro/Negro/Ébano GTX",
+          "precio": 379437,
+          "moneda": "COP",
+          "precio_final": 390821,
+          "disponible": true,
+          "verificado": "2026-10-13",
+          "metodo": "navegador"
+        }
+      ],
+      "sirve_en": {
+        "urbano": 5
+      }
+    }
+  ]
+}

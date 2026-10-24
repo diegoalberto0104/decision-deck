@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schema/config.schema.json",
+  "categoria": "Zapatos impermeables",
+  "titulo": "Zapatos impermeables para caminar",
+  "descripcion": "Para caminar 5 a 8 km al día con lluvia y que también sirvan en la ciudad.",
+  "idioma": "es-CO",
+  "moneda": "COP",
+  "presupuesto": { "ideal": 500000, "techo": 550000 },
+  "textos": { "item": "zapato", "items": "zapatos", "disponible": "con talla disponible", "variante": "Color" },
+  "segmentos": [
+    { "id": "lluvia", "nombre": "Lluvia", "principal": true, "descripcion": "Impermeables para caminar con lluvia." },
+    { "id": "urbano", "nombre": "Urbano", "descripcion": "Tenis de ciudad sin membrana, para los días secos." }
+  ],
+  "ejes": [
+    { "id": "comodidad", "nombre": "Comodidad", "importancia": 3 },
+    { "id": "estabilidad", "nombre": "Estabilidad", "importancia": 3 },
+    { "id": "agarre", "nombre": "Agarre en mojado", "importancia": 4 },
+    { "id": "peso", "nombre": "Peso", "importancia": 2, "derivado": "menor_es_mejor", "campo": "ficha.peso_g", "cortes": [250, 300, 350, 400] },
+    { "id": "precio", "nombre": "Precio", "importancia": 3, "derivado": "precio_inverso" },
+    { "id": "estilo", "nombre": "Estilo", "importancia": 2, "editable": true, "desde_voto": true }
+  ],
+  "innegociables": [
+    {
+      "id": "impermeable",
+      "nombre": "Membrana impermeable verificada en la ficha",
+      "segmentos": ["lluvia"],
+      "condiciones": [{ "campo": "ficha.membrana_verificada", "es": true }]
+    }
+  ],
+  "insignias": [
+    {
+      "id": "todo-en-uno",
+      "nombre": "Par único",
+      "descripcion": "Impermeable verificado que también sirve en la ciudad (4 de 5 o más).",
+      "destacada": true,
+      "segmentos": ["lluvia"],
+      "condiciones": [{ "campo": "sirve_en.urbano", "min": 4 }]
+    }
+  ],
+  "filtros": ["disponible", "dentro_del_presupuesto", "pais", "insignia", "sin_alerta", "mis_votos"],
+  "atributos_ficha": [
+    { "campo": "ficha.membrana", "nombre": "Membrana", "en_tarjeta": true },
+    { "campo": "ficha.peso_g", "nombre": "Peso", "unidad": "g", "mejor": "min", "en_tarjeta": true },
+    { "campo": "ficha.drop_mm", "nombre": "Drop", "unidad": "mm" },
+    { "campo": "ficha.suela", "nombre": "Suela" }
+  ],
+  "paises": { "CO": "Colombia", "US": "EE. UU." },
+  "aclaraciones": [
+    "El precio final incluye envío y comisión de la tarjeta cuando la tienda cobra en otra moneda.",
+    "Las tiendas del exterior pueden cobrar impuestos de importación al llegar: no están incluidos en el precio.",
+    "Las ilustraciones son genéricas por tipo y color: no son fotos del producto."
+  ]
+}

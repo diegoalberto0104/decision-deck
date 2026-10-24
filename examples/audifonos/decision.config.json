@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schema/config.schema.json",
+  "categoria": "Audífonos con cancelación de ruido",
+  "titulo": "Audífonos para trabajar y viajar",
+  "descripcion": "Para concentrarse en la oficina, llamadas y vuelos largos.",
+  "idioma": "es-CO",
+  "moneda": "USD",
+  "presupuesto": {
+    "ideal": 300,
+    "techo": 400
+  },
+  "textos": {
+    "item": "audífono",
+    "items": "audífonos",
+    "disponible": "en stock",
+    "variante": "Color"
+  },
+  "segmentos": [
+    {
+      "id": "diadema",
+      "nombre": "Diadema",
+      "principal": true,
+      "descripcion": "Over-ear: más cancelación y batería."
+    },
+    {
+      "id": "in-ear",
+      "nombre": "In-ear",
+      "descripcion": "Para el bolsillo y el gimnasio."
+    }
+  ],
+  "ejes": [
+    {
+      "id": "sonido",
+      "nombre": "Sonido",
+      "importancia": 4
+    },
+    {
+      "id": "cancelacion",
+      "nombre": "Cancelación",
+      "importancia": 5
+    },
+    {
+      "id": "bateria",
+      "nombre": "Batería",
+      "importancia": 3,
+      "derivado": "mayor_es_mejor",
+      "campo": "ficha.bateria_h",
+      "cortes": [
+        8,
+        20,
+        30,
+        45
+      ]
+    },
+    {
+      "id": "comodidad",
+      "nombre": "Comodidad",
+      "importancia": 4
+    },
+    {
+      "id": "precio",
+      "nombre": "Precio",
+      "importancia": 3,
+      "derivado": "precio_inverso"
+    },
+    {
+      "id": "estilo",
+      "nombre": "Estilo",
+      "importancia": 1,
+      "editable": true,
+      "desde_voto": true
+    }
+  ],
+  "innegociables": [
+    {
+      "id": "anc",
+      "nombre": "Cancelación activa de ruido",
+      "condiciones": [
+        {
+          "campo": "ficha.anc",
+          "es": true
+        }
+      ]
+    }
+  ],
+  "insignias": [
+    {
+      "id": "todo-el-dia",
+      "nombre": "Para todo el día",
+      "descripcion": "30 horas de batería o más y comodidad de 4 o más.",
+      "destacada": true,
+      "condiciones": [
+        {
+          "campo": "ficha.bateria_h",
+          "min": 30
+        },
+        {
+          "campo": "notas.comodidad",
+          "min": 4
+        }
+      ]
+    }
+  ],
+  "filtros": [
+    "disponible",
+    "dentro_del_presupuesto",
+    "insignia",
+    "mis_votos"
+  ],
+  "atributos_ficha": [
+    {
+      "campo": "ficha.bateria_h",
+      "nombre": "Batería",
+      "unidad": "h",
+      "mejor": "max",
+      "en_tarjeta": true
+    },
+    {
+      "campo": "ficha.peso_g",
+      "nombre": "Peso",
+      "unidad": "g",
+      "mejor": "min"
+    }
+  ],
+  "paises": {
+    "US": "EE. UU."
+  },
+  "aclaraciones": [
+    "Investigación breve con búsqueda web (24 oct 2026): las notas resumen reseñas de RTINGS y los precios son de lista o citados por medios y rastreadores. No se leyó el stock en las tiendas.",
+    "Los precios no incluyen el impuesto de venta de EE. UU. ni el envío.",
+    "Las ilustraciones son genéricas: no son fotos del producto."
+  ]
+}

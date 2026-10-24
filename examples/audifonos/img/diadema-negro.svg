@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Ilustración genérica">
+<ellipse cx="150" cy="262" rx="100" ry="10" fill="#000" opacity=".08"/>
+<path d="M70 160 V130 A80 80 0 0 1 230 130 V160" fill="none" stroke="#1d2127" stroke-width="16" stroke-linecap="round"/>
+<path d="M70 160 V130 A80 80 0 0 1 230 130 V160" fill="none" stroke="#2b2f36" stroke-width="9" stroke-linecap="round"/>
+<rect x="44" y="150" width="56" height="92" rx="26" fill="#2b2f36" stroke="#1d2127" stroke-width="3"/>
+<rect x="200" y="150" width="56" height="92" rx="26" fill="#2b2f36" stroke="#1d2127" stroke-width="3"/>
+<rect x="88" y="162" width="14" height="68" rx="7" fill="#1d2127" opacity=".55"/>
+<rect x="198" y="162" width="14" height="68" rx="7" fill="#1d2127" opacity=".55"/>
+</svg>

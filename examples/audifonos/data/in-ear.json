@@ -1,0 +1,173 @@
+{
+  "$schema": "../../../schema/datos.schema.json",
+  "segmento": "in-ear",
+  "generado": "2026-10-24",
+  "items": [
+    {
+      "id": "sony-wf-1000xm6",
+      "marca": "Sony",
+      "modelo": "WF-1000XM6",
+      "variante": "Negro",
+      "imagen": "img/in-ear-negro.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 8.6,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/sony/wf-1000xm6"
+        ]
+      },
+      "notas": {
+        "sonido": 4,
+        "cancelacion": 5,
+        "comodidad": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/sony/wf-1000xm6"
+        ]
+      },
+      "beneficios": [
+        "Aislamiento sobresaliente, mejor que el XM5 en graves",
+        "Sonido cálido y ajustable en la app"
+      ],
+      "contras": [
+        "Se pueden salir de orejas pequeñas",
+        "Materiales que se sienten más baratos",
+        "Batería igual a la generación anterior"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Sony",
+          "pais": "US",
+          "url": "https://electronics.sony.com",
+          "precio": 329.99,
+          "moneda": "USD",
+          "precio_final": 329.99,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lanzamiento (12 de febrero de 2026).",
+          "variante": null
+        },
+        {
+          "tienda": "Amazon",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Sony+WF-1000XM6",
+          "precio": 298,
+          "moneda": "USD",
+          "precio_final": 298,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Primera rebaja citada por SoundGuys.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "apple-airpods-pro-3",
+      "marca": "Apple",
+      "modelo": "AirPods Pro 3",
+      "variante": "Blanco",
+      "imagen": "img/in-ear-blanco.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 9,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/apple/airpods-pro-3"
+        ]
+      },
+      "notas": {
+        "sonido": 4,
+        "cancelacion": 5,
+        "comodidad": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/apple/airpods-pro-3"
+        ]
+      },
+      "beneficios": [
+        "Cancelación líder en su clase con ruidos graves",
+        "Cómodos y estables",
+        "9 h de batería continua"
+      ],
+      "contras": [
+        "Sin ecualizador convencional",
+        "Muchas funciones solo en iOS"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Apple",
+          "pais": "US",
+          "url": "https://www.apple.com",
+          "precio": 249,
+          "moneda": "USD",
+          "precio_final": 249,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lista según MacRumors y 9to5Mac.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "bose-qc-ultra-earbuds-2",
+      "marca": "Bose",
+      "modelo": "QuietComfort Ultra Earbuds (2nd Gen)",
+      "variante": "Negro",
+      "imagen": "img/in-ear-negro.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 6,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/bose/quietcomfort-ultra-earbuds-2nd-gen"
+        ]
+      },
+      "notas": {
+        "sonido": null,
+        "cancelacion": 5,
+        "comodidad": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/bose/quietcomfort-ultra-earbuds-2nd-gen",
+          "https://www.soundguys.com/bose-quietcomfort-ultra-earbuds-2nd-gen-review-140812/"
+        ]
+      },
+      "beneficios": [
+        "Entre las mejores cancelaciones en in-ear",
+        "Muy cómodos según varias reseñas"
+      ],
+      "contras": [
+        "6 h de batería, menos que la primera generación",
+        "Latencia alta para juegos"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Bose",
+          "pais": "US",
+          "url": "https://www.bose.com",
+          "precio": 299,
+          "moneda": "USD",
+          "precio_final": 299,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lanzamiento (12 de junio de 2025).",
+          "variante": null
+        }
+      ]
+    }
+  ]
+}

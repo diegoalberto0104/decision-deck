@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "decision.config.schema.json",
+  "title": "decision.config.json",
+  "description": "Criterios de una decisión de compra. Lo escribe la skill `criterios` y lo leen el pipeline y la app.",
+  "type": "object",
+  "required": ["categoria", "moneda", "presupuesto", "segmentos", "ejes"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "categoria": { "type": "string", "minLength": 1, "description": "Qué se compra, en plural o como categoría." },
+    "titulo": { "type": "string", "description": "Título de la página. Por defecto, la categoría." },
+    "descripcion": { "type": "string", "description": "Una frase sobre el uso real. Sale bajo el título." },
+    "idioma": { "type": "string", "default": "es-CO", "description": "Locale BCP 47 para números, fechas e idioma de la interfaz (es-* o en-*; otro idioma cae en español)." },
+    "moneda": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "Moneda ISO 4217 en la que se comparan los precios finales." },
+    "datos": { "type": "string", "default": "data", "description": "Carpeta con los JSON de ítems, relativa a este archivo." },
+    "presupuesto": {
+      "type": "object",
+      "required": ["ideal", "techo"],
+      "additionalProperties": false,
+      "properties": {
+        "ideal": { "type": "number", "exclusiveMinimum": 0, "description": "Lo que se quiere gastar." },
+        "techo": { "type": "number", "exclusiveMinimum": 0, "description": "Lo máximo que se acepta, con todo incluido." }
+      }
+    },
+    "textos": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Palabras del dominio que usa la interfaz.",
+      "properties": {
+        "item": { "type": "string", "description": "Singular: \"zapato\", \"audífono\"." },
+        "items": { "type": "string", "description": "Plural: \"zapatos\", \"audífonos\"." },
+        "disponible": { "type": "string", "description": "Qué significa disponible: \"con talla disponible\", \"en stock\"." },
+        "variante": { "type": "string", "description": "Nombre de la variante: \"Color\", \"Talla y color\"." }
+      }
+    },
+    "segmentos": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Grupos de uso. Cada uno es una ronda de deslizar y una pestaña de resultados.",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "nombre": { "type": "string" },
+          "descripcion": { "type": "string" },
+          "principal": { "type": "boolean", "description": "La compra principal. Su ronda va primero y las demás son opcionales." }
+        }
+      }
+    },
+    "ejes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "description": "Ejes del radar y del ranking, de 1 a 5.",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "nombre": { "type": "string" },
+          "importancia": { "type": "integer", "minimum": 0, "maximum": 5, "default": 3, "description": "Peso inicial en el ranking." },
+          "derivado": {
+            "enum": ["precio_inverso", "menor_es_mejor", "mayor_es_mejor"],
+            "description": "Si se calcula en vez de leerse de notas.<id>. precio_inverso: más barato, más nota. Los otros dos leen `campo`."
+          },
+          "campo": { "type": "string", "description": "Ruta del dato numérico, p. ej. ficha.peso_g." },
+          "cortes": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 4,
+            "maxItems": 4,
+            "description": "4 cortes ascendentes que separan las notas 5 a 1. Sin cortes, la escala va del mínimo al máximo de los datos."
+          },
+          "editable": { "type": "boolean", "description": "El usuario puede poner su propia nota (p. ej. estilo)." },
+          "desde_voto": { "type": "boolean", "description": "Si no hay nota, se toma del voto al deslizar: Sí 4, Tal vez 3, No 2." }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "derivado": { "enum": ["menor_es_mejor", "mayor_es_mejor"] } }, "required": ["derivado"] },
+            "then": { "required": ["campo"] }
+          }
+        ]
+      }
+    },
+    "innegociables": {
+      "type": "array",
+      "description": "Lo que descarta. Un ítem que no lo cumple queda fuera, con el motivo a la vista.",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "condiciones"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "nombre": { "type": "string" },
+          "segmentos": { "type": "array", "items": { "type": "string" }, "description": "Solo aplica a estos segmentos." },
+          "condiciones": { "$ref": "#/$defs/condiciones" }
+        }
+      }
+    },
+    "insignias": {
+      "type": "array",
+      "description": "Etiquetas calculadas. Una insignia destacada sube en el orden y brilla.",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "condiciones"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "nombre": { "type": "string" },
+          "descripcion": { "type": "string" },
+          "destacada": { "type": "boolean" },
+          "segmentos": { "type": "array", "items": { "type": "string" } },
+          "condiciones": { "$ref": "#/$defs/condiciones" }
+        }
+      }
+    },
+    "filtros": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "enum": ["disponible", "dentro_del_presupuesto", "pais", "insignia", "sin_alerta", "mis_votos"] },
+      "description": "Filtros que ofrece el ranking."
+    },
+    "atributos_ficha": {
+      "type": "array",
+      "description": "Datos de la ficha que se muestran en la tarjeta y en la comparación.",
+      "items": {
+        "type": "object",
+        "required": ["campo", "nombre"],
+        "additionalProperties": false,
+        "properties": {
+          "campo": { "type": "string" },
+          "nombre": { "type": "string" },
+          "unidad": { "type": "string" },
+          "mejor": { "enum": ["min", "max"], "description": "Resalta el mejor valor en la comparación." },
+          "en_tarjeta": { "type": "boolean", "description": "Se muestra como etiqueta en la tarjeta." }
+        }
+      }
+    },
+    "paises": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Nombre de cada código de país de las ofertas."
+    },
+    "aclaraciones": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Supuestos que el usuario debe conocer. Salen en el pie de página."
+    },
+    "repo_issues": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL de issues nuevos para sugerir tiendas. Sin ella, las sugerencias solo se guardan en el navegador."
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+    "condiciones": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Todas deben cumplirse.",
+      "items": {
+        "type": "object",
+        "required": ["campo"],
+        "additionalProperties": false,
+        "properties": {
+          "campo": { "type": "string", "description": "Ruta en el ítem compilado: segmento, ficha.x, notas.x, ejes.x, sirve_en.x, franja, estado." },
+          "es": { "type": ["string", "number", "boolean"] },
+          "no_es": { "type": ["string", "number", "boolean"] },
+          "min": { "type": "number" },
+          "max": { "type": "number" },
+          "existe": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

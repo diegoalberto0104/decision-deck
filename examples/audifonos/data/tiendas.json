@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schema/datos.schema.json",
+  "tiendas": [
+    {
+      "id": "amazon",
+      "nombre": "Amazon",
+      "pais": "US",
+      "url": "https://www.amazon.com",
+      "tipo": "marketplace",
+      "estado": "pendiente",
+      "metodo": "búsqueda web",
+      "nota": "Precios citados por medios; la tienda no se leyó directamente."
+    },
+    {
+      "id": "sony",
+      "nombre": "Sony",
+      "pais": "US",
+      "url": "https://electronics.sony.com",
+      "tipo": "oficial",
+      "estado": "pendiente",
+      "metodo": "búsqueda web",
+      "nota": "Precios citados por medios; la tienda no se leyó directamente."
+    },
+    {
+      "id": "bose",
+      "nombre": "Bose",
+      "pais": "US",
+      "url": "https://www.bose.com",
+      "tipo": "oficial",
+      "estado": "pendiente",
+      "metodo": "búsqueda web",
+      "nota": "Precios citados por medios; la tienda no se leyó directamente."
+    },
+    {
+      "id": "apple",
+      "nombre": "Apple",
+      "pais": "US",
+      "url": "https://www.apple.com",
+      "tipo": "oficial",
+      "estado": "pendiente",
+      "metodo": "búsqueda web",
+      "nota": "Precios citados por medios; la tienda no se leyó directamente."
+    },
+    {
+      "id": "soundcore",
+      "nombre": "Soundcore",
+      "pais": "US",
+      "url": "https://www.soundcore.com",
+      "tipo": "oficial",
+      "estado": "pendiente",
+      "metodo": "búsqueda web",
+      "nota": "Precios citados por medios; la tienda no se leyó directamente."
+    },
+    {
+      "id": "marshall",
+      "nombre": "Marshall",
+      "pais": "US",
+      "url": "https://www.marshall.com",
+      "tipo": "oficial",
+      "estado": "pendiente",
+      "metodo": "búsqueda web",
+      "nota": "Precios citados por medios; la tienda no se leyó directamente."
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "$schema": "../../../schema/datos.schema.json",
+  "segmento": "diadema",
+  "generado": "2026-10-24",
+  "items": [
+    {
+      "id": "sony-wh-1000xm6",
+      "marca": "Sony",
+      "modelo": "WH-1000XM6",
+      "variante": "Negro",
+      "imagen": "img/diadema-negro.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 31.75,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/sony/wh-1000xm6"
+        ]
+      },
+      "notas": {
+        "sonido": 4,
+        "cancelacion": 5,
+        "comodidad": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/sony/wh-1000xm6",
+          "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling"
+        ]
+      },
+      "beneficios": [
+        "La mejor cancelación de ruido que RTINGS ha medido en diadema",
+        "Casi 32 h de batería con ANC"
+      ],
+      "contras": [
+        "Ajuste poco estable con movimiento",
+        "Pequeñas diferencias entre canales (RTINGS)"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Sony",
+          "pais": "US",
+          "url": "https://electronics.sony.com",
+          "precio": 459.99,
+          "moneda": "USD",
+          "precio_final": 459.99,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lista (MSRP) según SoundGuys.",
+          "variante": null
+        },
+        {
+          "tienda": "Amazon",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Sony+WH-1000XM6",
+          "precio": 400,
+          "moneda": "USD",
+          "precio_final": 400,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio rebajado citado por BGR; fecha no indicada.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "bose-qc-ultra-headphones-2",
+      "marca": "Bose",
+      "modelo": "QuietComfort Ultra Headphones (2nd Gen)",
+      "variante": "Beige",
+      "imagen": "img/diadema-beige.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 37,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/bose/quietcomfort-ultra-headphones-2nd-gen"
+        ]
+      },
+      "notas": {
+        "sonido": null,
+        "cancelacion": 5,
+        "comodidad": 5,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/bose/quietcomfort-ultra-headphones-2nd-gen"
+        ]
+      },
+      "beneficios": [
+        "Aislamiento de ruido excelente",
+        "Muy cómodos para vuelos largos",
+        "37 h de batería"
+      ],
+      "contras": [
+        "Sin certificación IP",
+        "Con cable, el micrófono no funciona"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Bose",
+          "pais": "US",
+          "url": "https://www.bose.com",
+          "precio": 449,
+          "moneda": "USD",
+          "precio_final": 449,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lista citado por BGR (~$450).",
+          "variante": null
+        },
+        {
+          "tienda": "Amazon",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Headphones+2nd+Gen",
+          "precio": 329,
+          "moneda": "USD",
+          "precio_final": 329,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Oferta citada por Tom's Guide; puede haber vencido.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "apple-airpods-max-2",
+      "marca": "Apple",
+      "modelo": "AirPods Max 2",
+      "variante": "Plata",
+      "imagen": "img/diadema-plata.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 22,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/apple/airpods-max-2"
+        ]
+      },
+      "notas": {
+        "sonido": null,
+        "cancelacion": 5,
+        "comodidad": 3,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/apple/airpods-max-2"
+        ]
+      },
+      "beneficios": [
+        "Aislamiento aún mejor que el AirPods Max original"
+      ],
+      "contras": [
+        "Voluminosos y con presión alta en cabezas grandes",
+        "22 h de batería, menos que la competencia"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Apple",
+          "pais": "US",
+          "url": "https://www.apple.com",
+          "precio": 549,
+          "moneda": "USD",
+          "precio_final": 549,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lista según Tom's Guide.",
+          "variante": null
+        },
+        {
+          "tienda": "Amazon",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=AirPods+Max+2",
+          "precio": 509.99,
+          "moneda": "USD",
+          "precio_final": 509.99,
+          "disponible": true,
+          "verificado": "2026-10-03",
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio del rastreador de iClarified del 3 de octubre de 2026.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "sennheiser-momentum-4",
+      "marca": "Sennheiser",
+      "modelo": "Momentum 4 Wireless",
+      "variante": "Negro",
+      "imagen": "img/diadema-negro.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 62,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/sennheiser/momentum-4-wireless"
+        ]
+      },
+      "notas": {
+        "sonido": 4,
+        "cancelacion": 4,
+        "comodidad": 4,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/sennheiser/momentum-4-wireless"
+        ]
+      },
+      "beneficios": [
+        "62 h de batería",
+        "Cómodos y con buen acabado",
+        "Ecualizador de 5 bandas en la app"
+      ],
+      "contras": [
+        "La cancelación flojea con ruidos muy graves",
+        "Micrófono regular para llamadas",
+        "Ya lo reemplazó el Momentum 5"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Amazon",
+          "pais": "US",
+          "url": "https://www.amazon.com/s?k=Sennheiser+Momentum+4+Wireless",
+          "precio": 219.99,
+          "moneda": "USD",
+          "precio_final": 219.99,
+          "disponible": true,
+          "verificado": "2026-06-11",
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Oferta publicada en Slickdeals el 11 de junio de 2026.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "soundcore-space-one",
+      "marca": "Soundcore",
+      "modelo": "Space One",
+      "variante": "Azul",
+      "imagen": "img/diadema-azul.svg",
+      "ficha": {
+        "anc": true,
+        "bateria_h": 34,
+        "peso_g": null,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/anker/soundcore-space-one-wireless"
+        ]
+      },
+      "notas": {
+        "sonido": null,
+        "cancelacion": 3,
+        "comodidad": null,
+        "estilo": null,
+        "fuentes": [
+          "https://www.rtings.com/headphones/reviews/anker/soundcore-space-one-wireless"
+        ]
+      },
+      "beneficios": [
+        "Precio muy bajo",
+        "Más de 34 h de batería"
+      ],
+      "contras": [
+        "La cancelación no bloquea bien los graves",
+        "Llamadas flojas",
+        "Sin estuche rígido"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Soundcore",
+          "pais": "US",
+          "url": "https://www.soundcore.com",
+          "precio": 99,
+          "moneda": "USD",
+          "precio_final": 99,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lista en EE. UU. citado por SoundGuys; en oferta ha bajado a $69.",
+          "variante": null
+        }
+      ]
+    },
+    {
+      "id": "marshall-major-v",
+      "marca": "Marshall",
+      "modelo": "Major V",
+      "variante": "Cafe",
+      "imagen": "img/diadema-cafe.svg",
+      "ficha": {
+        "anc": false,
+        "bateria_h": 100,
+        "peso_g": 186,
+        "multipunto": null,
+        "codecs": null,
+        "fuentes": [
+          "https://www.digit.in/news/audio-video/marshall-major-v-headphones-launched-price-specifications-and-all-you-need-to-know.html"
+        ]
+      },
+      "notas": {
+        "sonido": null,
+        "cancelacion": null,
+        "comodidad": null,
+        "estilo": null,
+        "fuentes": []
+      },
+      "beneficios": [
+        "Más de 100 h de batería",
+        "Livianos (186 g) y plegables"
+      ],
+      "contras": [
+        "Sin cancelación activa de ruido",
+        "On-ear, sin reseña de RTINGS"
+      ],
+      "alerta": "Precio tomado de reseñas y rastreadores de precios, no leído en la tienda: confirma precio y stock antes de comprar.",
+      "ofertas": [
+        {
+          "tienda": "Marshall",
+          "pais": "US",
+          "url": "https://www.marshall.com",
+          "precio": 159.99,
+          "moneda": "USD",
+          "precio_final": 159.99,
+          "disponible": true,
+          "verificado": null,
+          "metodo": "búsqueda web (precio citado por un medio)",
+          "nota": "Precio de lanzamiento en EE. UU. citado por Digit.",
+          "variante": null
+        }
+      ]
+    }
+  ]
+}
