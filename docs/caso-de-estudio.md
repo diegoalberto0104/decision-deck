@@ -123,3 +123,7 @@ buscando el zapato perfecto**.
 3. **Los agentes de IA aceleran la investigación, pero el criterio y la verificación siguen siendo
    del diseñador.** La auditoría encontró errores que habrían terminado en una mala compra.
 4. **Un dato sin fuente se muestra como vacío.** La confianza en la herramienta depende de eso.
+
+---
+
+**Pruébalo:** [demo en vivo](https://decision-deck-kit.vercel.app) con el ejemplo de zapatos · [repo con el kit](https://github.com/diegoalberto0104/decision-deck) para usar el método en tu propia compra.

@@ -4,7 +4,7 @@
 set your criteria first, let agents research with sources, audit what they found, then decide in two
 steps — *do I like it?* (swipe) and *is it worth it?* (radar, tier list, price vs. value).
 
-[Leer en español](README.es.md) · [Case study (Spanish)](docs/caso-de-estudio.md)
+**[Live demo](https://decision-deck-kit.vercel.app)** · [Leer en español](README.es.md) · [Case study (Spanish)](docs/caso-de-estudio.md)
 
 <p>
   <img src="docs/img/swipe.gif" alt="Swiping through options: yes, no or maybe, visuals only" width="300">

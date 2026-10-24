@@ -4,7 +4,7 @@
 primero fijas los criterios, los agentes investigan con fuentes, auditas lo que encontraron y decides
 en dos pasos: *¿me gusta?* (deslizar) y *¿me conviene?* (radar, tier list, precio contra valor).
 
-[Read in English](README.md) · [Caso de estudio](docs/caso-de-estudio.md)
+**[Demo en vivo](https://decision-deck-kit.vercel.app)** · [Read in English](README.md) · [Caso de estudio](docs/caso-de-estudio.md)
 
 <p>
   <img src="docs/img/swipe.gif" alt="Deslizar entre opciones: sí, no o tal vez, solo lo visual" width="300">
